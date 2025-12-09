@@ -1,0 +1,253 @@
+{
+  "slug": "security-system-solution",
+  "clientName": "Security System Solution",
+  "contactName": "Cameron Peavy",
+  "createdAt": "2025-01-15T00:00:00.000Z",
+  "expiresAt": "2025-02-14T00:00:00.000Z",
+  "dealId": 12345,
+
+  "headline": "Inbound Engine Proposal",
+  "subheadline": "A proven system for generating sales-ready opportunities through strategic paid advertising and lead qualification.",
+
+  "situationPoints": [
+    "You've built a successful security system business through referrals and word-of-mouth, but growth has plateaued",
+    "Previous attempts at digital marketing with other agencies didn't deliver the quality of leads you need",
+    "You're looking to expand your service area and need a predictable flow of qualified commercial opportunities",
+    "Your team's time is valuable - you can't afford to chase unqualified leads or tire-kickers",
+    "You want to focus on what you do best (installations) while a partner handles lead generation"
+  ],
+
+  "solutionOverview": "We'll build an Inbound Engine that captures high-intent search traffic from businesses actively looking for security system installation and monitoring services. Every lead goes through our qualification process before reaching your team.",
+
+  "campaigns": [
+    {
+      "name": "Google Search Ads",
+      "description": "Capture businesses actively searching for security system installation, access control, and monitoring services in your target areas."
+    },
+    {
+      "name": "Google Local Services Ads",
+      "description": "Appear at the very top of search results with Google Guaranteed badge, building instant trust with potential customers."
+    }
+  ],
+
+  "qualificationCriteria": [
+    {
+      "label": "Commercial Property",
+      "description": "Business or commercial property owner, not residential"
+    },
+    {
+      "label": "Decision Maker",
+      "description": "Owner, facilities manager, or authorized decision maker"
+    },
+    {
+      "label": "Project Timeline",
+      "description": "Looking to start within the next 30-90 days"
+    },
+    {
+      "label": "Budget Authority",
+      "description": "Has budget allocated or can approve investment"
+    },
+    {
+      "label": "Service Area",
+      "description": "Located within your defined service territory"
+    }
+  ],
+
+  "deliverables": [
+    "Google Ads account setup and campaign build",
+    "Google Local Services Ads setup and optimization",
+    "Landing page design and development",
+    "Lead qualification workflow setup",
+    "Call tracking and recording implementation",
+    "Weekly performance reporting",
+    "Monthly strategy calls",
+    "Continuous campaign optimization"
+  ],
+
+  "includedFeatures": [
+    {
+      "icon": "phone",
+      "title": "Live Call Transfers",
+      "description": "Qualified leads transferred directly to your team during business hours"
+    },
+    {
+      "icon": "filter",
+      "title": "Lead Qualification",
+      "description": "Every lead vetted against your criteria before you spend time on them"
+    },
+    {
+      "icon": "chart",
+      "title": "Transparent Reporting",
+      "description": "Real-time dashboard showing spend, leads, and cost per opportunity"
+    },
+    {
+      "icon": "headset",
+      "title": "Dedicated Support",
+      "description": "Direct access to your account strategist, not a support queue"
+    }
+  ],
+
+  "leadInsights": {
+    "title": "What You'll See For Each Lead",
+    "points": [
+      "Business name and contact information",
+      "Property type and size",
+      "Specific security needs (cameras, access control, monitoring)",
+      "Timeline and urgency level",
+      "Call recording for context before you call back",
+      "Lead score based on qualification criteria"
+    ]
+  },
+
+  "clientRules": [
+    {
+      "title": "Same-Day Follow-Up",
+      "description": "Contact qualified leads within 4 hours of receiving them. Speed to lead is critical."
+    },
+    {
+      "title": "Track Every Outcome",
+      "description": "Log the result of every lead in our shared system so we can optimize targeting."
+    },
+    {
+      "title": "Monthly Reviews",
+      "description": "Join our monthly strategy calls to review performance and adjust approach."
+    }
+  ],
+
+  "caseStudies": [
+    {
+      "company": "Commercial Security Co.",
+      "sector": "Security Systems",
+      "metric": "47 qualified opportunities in 90 days",
+      "description": "Similar B2B security company went from 0 digital presence to predictable pipeline in under 3 months."
+    },
+    {
+      "company": "Access Control Pros",
+      "sector": "Access Control",
+      "metric": "$180K in closed revenue (first 6 months)",
+      "description": "Focused campaign targeting commercial access control searches generated over $180K in new business."
+    }
+  ],
+
+  "roadmap": [
+    {
+      "phase": "Week 1-2",
+      "title": "Discovery & Setup",
+      "description": "Deep dive into your business, ideal customer profile, and competitive landscape. Account setup and tracking implementation."
+    },
+    {
+      "phase": "Week 3-4",
+      "title": "Campaign Build",
+      "description": "Build out search campaigns, ad copy, and landing pages. Set up qualification workflow and call tracking."
+    },
+    {
+      "phase": "Week 5-8",
+      "title": "Launch & Optimize",
+      "description": "Go live with campaigns. Daily monitoring and optimization. First qualified leads start flowing."
+    },
+    {
+      "phase": "Month 3+",
+      "title": "Scale & Refine",
+      "description": "Analyze results, scale what's working, cut what isn't. Continuous improvement based on closed deal data."
+    }
+  ],
+
+  "roiDefaults": {
+    "opportunities": 20,
+    "closeRate": 30,
+    "ltv": 5000,
+    "investment": 3500
+  },
+
+  "phases": [
+    {
+      "name": "Implementation (One-Time)",
+      "items": [
+        { "label": "Account Setup & Campaign Build", "amount": 2500 },
+        { "label": "Landing Page Development", "amount": 1500 }
+      ]
+    },
+    {
+      "name": "Monthly Management",
+      "items": [
+        { "label": "Campaign Management", "amount": 1500 },
+        { "label": "Lead Qualification", "amount": 1000 },
+        { "label": "Reporting & Strategy", "amount": 500 }
+      ]
+    },
+    {
+      "name": "Ad Spend (Recommended)",
+      "items": [
+        { "label": "Google Ads Budget", "amount": 3000 },
+        { "label": "Local Services Ads Budget", "amount": 1000 }
+      ]
+    }
+  ],
+
+  "guarantee": "If we don't deliver at least 15 qualified opportunities in the first 90 days, we'll manage your campaigns for free until we do.",
+  "stipulations": [
+    "Minimum 90-day commitment required",
+    "Ad spend must be maintained at recommended levels",
+    "Client must follow up on leads within 4 business hours",
+    "All lead outcomes must be tracked in shared system"
+  ],
+
+  "scopeIncludes": [
+    "Google Ads search campaign management",
+    "Google Local Services Ads management",
+    "Custom landing page (1 page)",
+    "Lead qualification (phone screening)",
+    "Call tracking and recording",
+    "Weekly performance reports",
+    "Monthly strategy calls",
+    "Ongoing campaign optimization"
+  ],
+
+  "scopeExcludes": [
+    "Organic SEO services",
+    "Social media advertising",
+    "Website development beyond landing page",
+    "CRM setup or management",
+    "Sales training or coaching",
+    "Print or offline advertising"
+  ],
+
+  "about": {
+    "intro": "Digital Assembly builds revenue growth systems for service businesses. Since 2016, we've helped 100+ clients across the US, Canada, UK, Australia, and New Zealand generate predictable pipelines through strategic paid advertising and lead qualification. We're not a typical agency - we're partners invested in your growth.",
+    "values": [
+      {
+        "title": "Results Over Activity",
+        "description": "We measure success by qualified opportunities and closed deals, not clicks or impressions."
+      },
+      {
+        "title": "Radical Transparency",
+        "description": "You'll always know exactly where your money is going and what it's producing."
+      }
+    ],
+    "founderName": "Daniel Sandoval",
+    "founderTitle": "Founder & Lead Strategist"
+  },
+
+  "faqs": [
+    {
+      "question": "How quickly will I start seeing leads?",
+      "answer": "Most clients see their first qualified leads within 2-3 weeks of campaign launch. It takes about 60-90 days to fully optimize campaigns and reach consistent performance."
+    },
+    {
+      "question": "What if the leads aren't qualified?",
+      "answer": "Every lead goes through our qualification process before reaching you. If a lead doesn't meet the agreed criteria, we don't count it and we don't charge for it. Simple."
+    },
+    {
+      "question": "How is this different from other agencies I've tried?",
+      "answer": "Most agencies just run ads and send you form fills. We qualify every lead, transfer calls live during business hours, and only count opportunities that match your criteria. We're accountable to outcomes, not activities."
+    },
+    {
+      "question": "What's the minimum commitment?",
+      "answer": "We require a 90-day minimum commitment. It takes time to build momentum and optimize campaigns. After 90 days, the engagement is month-to-month."
+    },
+    {
+      "question": "Can I see the ads and landing pages before they go live?",
+      "answer": "Absolutely. You'll approve all creative and messaging before anything goes live. We want you confident in how your brand is being represented."
+    }
+  ]
+}
