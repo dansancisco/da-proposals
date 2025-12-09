@@ -12,7 +12,6 @@ interface InvestmentPhase {
 
 interface InvestmentSectionProps {
   phases: InvestmentPhase[];
-  ctaHref?: string;
 }
 
 function formatCurrency(num: number): string {
@@ -23,11 +22,7 @@ function formatCurrency(num: number): string {
   }).format(num);
 }
 
-export function InvestmentSection({ phases, ctaHref }: InvestmentSectionProps) {
-  const totalInvestment = phases.reduce(
-    (sum, phase) => sum + phase.items.reduce((s, item) => s + item.amount, 0),
-    0
-  );
+export function InvestmentSection({ phases }: InvestmentSectionProps) {
 
   return (
     <section id="investment" className="w-full bg-black py-20 md:py-32">
