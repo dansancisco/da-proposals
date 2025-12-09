@@ -1,0 +1,297 @@
+{
+  "slug": "surface-prep-pros",
+  "clientName": "Surface Prep Pros",
+  "contactName": "Jeff Roscino",
+  "createdAt": "2025-12-09T00:00:00.000Z",
+  "expiresAt": "2026-01-08T00:00:00.000Z",
+  "dealId": 746,
+
+  "headline": "Industrial Painting & Surface Prep Marketing System",
+  "subheadline": "A phased approach to dominate Hudson Valley search results for industrial painting, propane tank restoration, and equipment refinishing—starting with SEO, scaling with Google Ads in spring.",
+
+  "situationPoints": [
+    "Built successful business through word-of-mouth and referrals, but want to control growth instead of waiting for the phone to ring",
+    "Sell a lot of work because of painting services, but website only showcases sandblasting—prospects can't see full capabilities",
+    "Past Google Ads brought in jobs, but turned everything off this year due to being overwhelmed with work and employee issues",
+    "Winter is slow season (can't work in extreme cold), need to use this time strategically to prepare for spring",
+    "Want to focus on commercial work: propane tanks, truck frames, trailers, equipment restoration—high-value jobs, not residential work"
+  ],
+
+  "solutionOverview": "We're taking a seasonal approach that works with your business cycle. Phase 1 (January-March) focuses on getting your website dialed in and building organic SEO visibility during the slow winter months. This gives us time to add dedicated painting service pages, showcase your best projects, and start ranking for your target keywords. Phase 2 (Spring) layers in Google Ads to capture high-intent industrial painting searches right when your busy season kicks in and you're ready to handle the volume.",
+
+  "campaigns": [
+    {
+      "name": "SEO Foundation (January Start)",
+      "description": "Add industrial painting service pages to your website with professional project photos. Optimize for keywords like 'propane tank painting Hudson Valley,' 'truck frame restoration NY,' 'industrial equipment painting.' Build organic visibility during winter so you're ranking when spring hits."
+    },
+    {
+      "name": "Google Search Ads (Spring Launch)",
+      "description": "Capture businesses actively searching for industrial painting, propane tank restoration, and equipment refinishing services. Target commercial buyers with budget authority and immediate project timelines. Launch when you're ready to handle volume."
+    }
+  ],
+
+  "qualificationCriteria": [
+    {
+      "label": "Commercial Projects",
+      "description": "Industrial/commercial work only (propane tanks, truck frames, trailers, equipment)—not residential"
+    },
+    {
+      "label": "Decision Maker",
+      "description": "Business owner, facilities manager, or authorized buyer"
+    },
+    {
+      "label": "Project Timeline",
+      "description": "Looking to start within 30-90 days"
+    },
+    {
+      "label": "Budget Authority",
+      "description": "Has allocated budget or can approve commercial project spend"
+    },
+    {
+      "label": "Service Area",
+      "description": "Located within Hudson Valley and surrounding service territory"
+    }
+  ],
+
+  "deliverables": [
+    "Technical SEO audit and optimization",
+    "3-5 dedicated industrial painting service pages (propane tanks, truck frames, equipment restoration)",
+    "Professional photo integration and page optimization",
+    "Local SEO setup (Google Business Profile optimization)",
+    "Content strategy for ongoing visibility",
+    "Google Ads account setup and campaign build (Phase 2)",
+    "Conversion-focused landing page for industrial painting (Phase 2)",
+    "Multi-channel lead capture with call tracking and forms (Phase 2)",
+    "Lead management system setup (Phase 2)",
+    "Analytics and conversion tracking (Phase 2)",
+    "Ongoing campaign optimization and monthly reporting"
+  ],
+
+  "includedFeatures": [
+    {
+      "icon": "page",
+      "title": "Service Page Development",
+      "description": "Dedicated pages showcasing your painting capabilities with project photos"
+    },
+    {
+      "icon": "content",
+      "title": "Local SEO Optimization",
+      "description": "Get found when industrial buyers search for painting services in Hudson Valley"
+    },
+    {
+      "icon": "phone",
+      "title": "Call Tracking & Recording",
+      "description": "Know which keywords bring in your best commercial jobs"
+    },
+    {
+      "icon": "dashboard",
+      "title": "Real-Time Lead Dashboard",
+      "description": "See every inquiry as it comes in, with full context"
+    },
+    {
+      "icon": "calendar",
+      "title": "Monthly Strategy Calls",
+      "description": "Review what's working, adjust approach, plan next steps"
+    },
+    {
+      "icon": "report",
+      "title": "Transparent Reporting",
+      "description": "Clear breakdown of traffic, rankings, leads, and ROI"
+    }
+  ],
+
+  "leadInsights": {
+    "title": "What You'll See For Each Lead",
+    "points": [
+      "Business name and contact information",
+      "Type of project (propane tank, truck frame, equipment, trailer)",
+      "Project scope and timeline",
+      "Budget range and decision-maker role",
+      "Call recording for context before you call back",
+      "Lead score based on qualification criteria"
+    ]
+  },
+
+  "clientRules": [
+    {
+      "title": "Same-Day Follow-Up",
+      "description": "Contact qualified leads within 4 hours (speed matters for commercial jobs)"
+    },
+    {
+      "title": "Project Photos",
+      "description": "Provide high-quality photos of completed propane tank, truck frame, and equipment work for website"
+    },
+    {
+      "title": "Monthly Reviews",
+      "description": "Join monthly strategy calls to review performance and adjust targeting"
+    }
+  ],
+
+  "caseStudies": [
+    {
+      "company": "ProStrip Sandblasting",
+      "sector": "Sandblasting",
+      "metric": "4X",
+      "description": "Increase in mobile sandblasting jobs through Google Ads"
+    },
+    {
+      "company": "Reconditioning Pros",
+      "sector": "Industrial Refinishing",
+      "metric": "4X",
+      "description": "ROI on industrial refinishing leads"
+    },
+    {
+      "company": "Lotus",
+      "sector": "Commercial Cleaning",
+      "metric": "3X",
+      "description": "Increase in commercial service leads"
+    }
+  ],
+
+  "roadmap": [
+    {
+      "phase": "Month 1 (January)",
+      "title": "SEO Foundation Setup",
+      "description": "Technical audit, service page development, photo integration, keyword targeting setup"
+    },
+    {
+      "phase": "Month 2 (February)",
+      "title": "Content & Local SEO",
+      "description": "Content optimization, local SEO build, ranking monitoring"
+    },
+    {
+      "phase": "Month 3 (March)",
+      "title": "Pre-Spring Optimization",
+      "description": "Visibility tracking, pre-spring optimization, Google Ads prep"
+    },
+    {
+      "phase": "Spring (April+)",
+      "title": "Google Ads Launch & Scale",
+      "description": "Campaign build, launch, daily monitoring, scale what's working, refine targeting"
+    }
+  ],
+
+  "roiDefaults": {
+    "opportunities": 10,
+    "closeRate": 30,
+    "ltv": 8000,
+    "investment": 1590
+  },
+
+  "phases": [
+    {
+      "name": "Phase One: SEO & Website (Starting January)",
+      "items": [
+        { "label": "SEO Management", "amount": 1000 }
+      ]
+    },
+    {
+      "name": "Phase Two: Google Ads (Starting Spring)",
+      "items": [
+        { "label": "Google Ads Management", "amount": 590 },
+        { "label": "Recommended Ad Spend", "amount": 1000 }
+      ]
+    }
+  ],
+
+  "guarantee": "If we don't deliver at least 10 qualified industrial painting opportunities in the first 90 days of Google Ads launch, we'll refund 100% of our management fees for that period.",
+  "stipulations": [
+    "Phase 1 (SEO) minimum 3-month commitment to allow rankings to build",
+    "Phase 2 (Google Ads) ad spend maintained at $1,000/month minimum",
+    "Leads must be followed up within 4 hours",
+    "Project outcomes tracked in shared system"
+  ],
+
+  "scopeIncludes": [
+    "Technical SEO audit and optimization",
+    "3-5 industrial painting service pages",
+    "Local SEO and Google Business Profile optimization",
+    "Google Ads search campaign management (Phase 2)",
+    "Custom landing page development (Phase 2)",
+    "Call tracking and recording",
+    "Monthly performance reporting",
+    "Ongoing optimization"
+  ],
+
+  "scopeExcludes": [
+    "Social media advertising (Facebook, Instagram)",
+    "CRM setup or sales training",
+    "Video production or photography services",
+    "Website redesign beyond service pages",
+    "Print or offline advertising"
+  ],
+
+  "about": {
+    "intro": "Digital Assembly builds revenue growth systems for service businesses. Since 2016, we've helped 100+ clients across the US, Canada, UK, Australia, and New Zealand generate predictable pipelines through strategic paid advertising and lead qualification. We're not a typical agency - we're partners invested in your growth.",
+    "values": [
+      {
+        "title": "Results Over Activity",
+        "description": "We measure success by qualified opportunities and closed deals, not clicks or impressions."
+      },
+      {
+        "title": "Radical Transparency",
+        "description": "You'll always know exactly where your money is going and what it's producing."
+      }
+    ],
+    "founderName": "Daniel Sandoval",
+    "founderTitle": "Founder & Lead Strategist"
+  },
+
+  "testimonials": [
+    {
+      "id": "1",
+      "quote": "I have no concerns recommending Digital Assembly",
+      "name": "Tom McCarthy",
+      "company": "HussetHR",
+      "badge": "Google Verified"
+    },
+    {
+      "id": "2",
+      "quote": "Dan's producing more than 4x my cost to hire his firm",
+      "name": "Robert Dorsey",
+      "company": "Reconditioning Pros",
+      "badge": "Google Verified"
+    },
+    {
+      "id": "3",
+      "quote": "Honest and proactive, a very rare attribute in the industry",
+      "name": "Irene Denton",
+      "company": "Lightning Locksmiths",
+      "badge": "Google Verified"
+    },
+    {
+      "id": "4",
+      "quote": "Enhanced our digital footprint in a way that we couldn't have",
+      "name": "Rupert Harvey",
+      "company": "Smaart Recruitment",
+      "badge": "Google Verified"
+    }
+  ],
+
+  "faqs": [
+    {
+      "question": "How quickly will I start seeing results?",
+      "answer": "SEO results typically take 60-90 days to build momentum. You'll see ranking improvements within the first month, but meaningful organic traffic usually appears in months 2-3. Google Ads leads start flowing within 14 days of launch in spring."
+    },
+    {
+      "question": "Why start with SEO instead of just running ads?",
+      "answer": "Winter is your slow season, making it the perfect time to build your organic foundation without the pressure of needing immediate leads. By spring, you'll have both SEO momentum and Google Ads working together—maximizing visibility when you need it most."
+    },
+    {
+      "question": "What happens if the Google Ads don't work in spring?",
+      "answer": "If you meet the agreed stipulations and we don't deliver at least 10 qualified opportunities in 90 days, we refund 100% of our Google Ads management fees for that period."
+    },
+    {
+      "question": "Can I just do SEO without adding Google Ads later?",
+      "answer": "Absolutely. You can stay SEO-only if you prefer. Google Ads is optional and only recommended when you're ready to scale volume during peak season."
+    },
+    {
+      "question": "What do you need from us to make this successful?",
+      "answer": "High-quality photos of your best industrial painting work (propane tanks, truck frames, equipment). Fast follow-up on leads (within 4 hours). Monthly check-ins to review what's working."
+    },
+    {
+      "question": "Can we pause or cancel?",
+      "answer": "After the initial 3-month SEO build phase, it's month-to-month with no long contracts. You stay because the system produces opportunities and revenue."
+    }
+  ]
+}

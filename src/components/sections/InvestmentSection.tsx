@@ -43,7 +43,7 @@ export function InvestmentSection({ phases, ctaHref }: InvestmentSectionProps) {
           </div>
         </Reveal>
 
-        <div className="grid gap-px border border-white/20 bg-white/20 md:grid-cols-3">
+        <div className="grid gap-px border border-white/20 bg-white/20 md:grid-cols-2">
           {phases.map((phase, phaseIndex) => {
             const phaseTotal = phase.items.reduce((s, item) => s + item.amount, 0);
 
@@ -51,15 +51,12 @@ export function InvestmentSection({ phases, ctaHref }: InvestmentSectionProps) {
               <Reveal key={phase.name} delay={phaseIndex * 100}>
                 <div className="flex h-full flex-col bg-black">
                   <div className="border-b border-white/20 bg-white/10 px-6 py-4">
-                    <span className="font-mono text-[10px] uppercase text-neutral-500">
-                      Phase {String(phaseIndex + 1).padStart(2, "0")}
-                    </span>
                     <h3 className="font-display text-lg font-bold uppercase text-white">
                       {phase.name}
                     </h3>
                   </div>
 
-                  <div className="flex-1 p-6 space-y-4">
+                  <div className="flex-1 bg-white/10 p-6 space-y-4">
                     {phase.items.map((item) => (
                       <div
                         key={item.label}
@@ -90,42 +87,6 @@ export function InvestmentSection({ phases, ctaHref }: InvestmentSectionProps) {
             );
           })}
         </div>
-
-        <Reveal delay={phases.length * 100 + 100}>
-          <div className="mt-8 border border-signal bg-signal/10 p-6 md:p-8">
-            <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
-              <div>
-                <span className="mb-1 block font-mono text-[10px] uppercase tracking-widest text-neutral-500">
-                  Total Investment
-                </span>
-                <span className="font-display text-5xl font-bold text-signal md:text-6xl">
-                  {formatCurrency(totalInvestment)}
-                </span>
-              </div>
-
-              {ctaHref && (
-                <a
-                  href={ctaHref}
-                  className="inline-flex items-center gap-4 bg-signal px-10 py-4 font-mono text-xs uppercase tracking-[0.1em] text-white transition-colors hover:bg-white hover:text-black"
-                >
-                  <span>Accept Proposal</span>
-                  <svg
-                    className="h-4 w-4"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="square"
-                      strokeWidth={2}
-                      d="M17 8l4 4m0 0l-4 4m4-4H3"
-                    />
-                  </svg>
-                </a>
-              )}
-            </div>
-          </div>
-        </Reveal>
       </div>
     </section>
   );

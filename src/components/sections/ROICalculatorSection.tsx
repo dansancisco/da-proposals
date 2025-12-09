@@ -288,21 +288,6 @@ export function ROICalculatorSection({ defaults }: ROICalculatorSectionProps) {
           <div className="text-signal">Active</div>
         </div>
       </Reveal>
-
-      <Reveal delay={200}>
-        <p className="mt-8 text-center font-mono text-sm text-neutral-500">
-          To explore more ROI projections please use the{" "}
-          <a
-            href="https://digitalassembly.agency/#roi"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-signal underline hover:no-underline"
-          >
-            calculator on our homepage
-          </a>
-          .
-        </p>
-      </Reveal>
     </section>
   );
 }

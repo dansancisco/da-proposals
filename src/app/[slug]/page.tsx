@@ -12,7 +12,6 @@ import { SolutionSection } from "@/components/sections/SolutionSection";
 import { QualityControlSection } from "@/components/sections/QualityControlSection";
 import { DeliverablesSection } from "@/components/sections/DeliverablesSection";
 import { IncludedSection } from "@/components/sections/IncludedSection";
-import { LeadInsightsSection } from "@/components/sections/LeadInsightsSection";
 import { ClientRulesSection } from "@/components/sections/ClientRulesSection";
 import { CaseStudiesSection } from "@/components/sections/CaseStudiesSection";
 import { RoadmapSection } from "@/components/sections/RoadmapSection";
@@ -97,6 +96,7 @@ export default async function ProposalPage({
           {/* Hero outside grid background like homepage */}
           <HeroSection
             clientName={proposal.clientName}
+            contactName={proposal.contactName}
             headline={proposal.headline}
             subheadline={proposal.subheadline}
           />
@@ -120,14 +120,6 @@ export default async function ProposalPage({
 
             {proposal.includedFeatures.length > 0 && (
               <IncludedSection features={proposal.includedFeatures} />
-            )}
-
-            {proposal.leadInsights && (
-              <LeadInsightsSection
-                title={proposal.leadInsights.title}
-                points={proposal.leadInsights.points}
-                loomUrl={proposal.leadInsights.loomUrl}
-              />
             )}
 
             {proposal.clientRules.length > 0 && (

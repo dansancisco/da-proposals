@@ -17,7 +17,7 @@
     "You want to focus on what you do best (installations) while a partner handles lead generation"
   ],
 
-  "solutionOverview": "We'll build an Inbound Engine that captures high-intent search traffic from businesses actively looking for security system installation and monitoring services. Every lead goes through our qualification process before reaching your team.",
+  "solutionOverview": "We leverage Google Ads strategies to put you in front of high-value buyers at the exact moment they're searching for security system installation and monitoring services. Every inquiry is captured and logged in a simple pipeline you can see and manage.",
 
   "campaigns": [
     {
@@ -55,35 +55,55 @@
 
   "deliverables": [
     "Google Ads account setup and campaign build",
-    "Google Local Services Ads setup and optimization",
-    "Landing page design and development",
-    "Lead qualification workflow setup",
-    "Call tracking and recording implementation",
-    "Weekly performance reporting",
-    "Monthly strategy calls",
-    "Continuous campaign optimization"
+    "Conversion-focused landing page design and development",
+    "Multi-channel lead capture (call tracking, forms, AI-powered live chat)",
+    "Lead management system setup (What Converts platform)",
+    "Analytics and conversion tracking implementation",
+    "CRM integration (one-time setup if applicable)",
+    "Ongoing campaign optimization (daily bid management, ad testing, budget allocation)",
+    "Monthly performance reporting with clear metrics and insights"
   ],
 
   "includedFeatures": [
     {
+      "icon": "page",
+      "title": "High-Converting Landing Pages",
+      "description": "Proven pages designed to turn visitors into actionable leads that drive revenue"
+    },
+    {
+      "icon": "content",
+      "title": "Professional Content & Creative",
+      "description": "Ad copy, landing page content, and imagery—all built to convert your ideal customers"
+    },
+    {
+      "icon": "dashboard",
+      "title": "Real-Time Performance Dashboard",
+      "description": "Track every detail of your campaign performance in real-time, on any device"
+    },
+    {
+      "icon": "tracking",
+      "title": "Lead Tracking & Management System",
+      "description": "Capture and manage every inbound lead (calls, forms, live chat) with full attribution"
+    },
+    {
       "icon": "phone",
-      "title": "Live Call Transfers",
-      "description": "Qualified leads transferred directly to your team during business hours"
+      "title": "Inbound Call Recording",
+      "description": "Record every call to track quality, identify winning keywords, and train your team"
     },
     {
-      "icon": "filter",
-      "title": "Lead Qualification",
-      "description": "Every lead vetted against your criteria before you spend time on them"
+      "icon": "calendar",
+      "title": "Monthly Strategy Calls",
+      "description": "Review performance, discuss what's working, and align on next steps"
     },
     {
-      "icon": "chart",
-      "title": "Transparent Reporting",
-      "description": "Real-time dashboard showing spend, leads, and cost per opportunity"
+      "icon": "report",
+      "title": "Transparent Monthly Reporting",
+      "description": "Clear breakdown of what happened last month, what we're doing next, and why"
     },
     {
-      "icon": "headset",
-      "title": "Dedicated Support",
-      "description": "Direct access to your account strategist, not a support queue"
+      "icon": "roi",
+      "title": "ROI Tracking & Attribution",
+      "description": "Know exactly which campaigns are delivering your highest-value opportunities"
     }
   ],
 
@@ -116,16 +136,22 @@
 
   "caseStudies": [
     {
-      "company": "Commercial Security Co.",
-      "sector": "Security Systems",
-      "metric": "47 qualified opportunities in 90 days",
-      "description": "Similar B2B security company went from 0 digital presence to predictable pipeline in under 3 months."
+      "company": "Smaart Recruitment",
+      "sector": "Recruitment",
+      "metric": "3.8X",
+      "description": "Increase in call centre staffing opportunities"
     },
     {
-      "company": "Access Control Pros",
-      "sector": "Access Control",
-      "metric": "$180K in closed revenue (first 6 months)",
-      "description": "Focused campaign targeting commercial access control searches generated over $180K in new business."
+      "company": "ProStrip Sandblasting",
+      "sector": "Sandblasting",
+      "metric": "4X",
+      "description": "Increase in local mobile sandblasting jobs"
+    },
+    {
+      "company": "Lotus",
+      "sector": "Commercial Cleaning",
+      "metric": "3X",
+      "description": "Increase in commercial kitchen cleaning leads"
     }
   ],
 
@@ -161,25 +187,17 @@
 
   "phases": [
     {
-      "name": "Implementation (One-Time)",
+      "name": "Phase One: Implementation (One-Time)",
       "items": [
-        { "label": "Account Setup & Campaign Build", "amount": 2500 },
-        { "label": "Landing Page Development", "amount": 1500 }
+        { "label": "Account Setup & Management", "amount": 5000 },
+        { "label": "Ad Spend", "amount": 5000 }
       ]
     },
     {
-      "name": "Monthly Management",
+      "name": "Phase Two: Monthly Management",
       "items": [
-        { "label": "Campaign Management", "amount": 1500 },
-        { "label": "Lead Qualification", "amount": 1000 },
-        { "label": "Reporting & Strategy", "amount": 500 }
-      ]
-    },
-    {
-      "name": "Ad Spend (Recommended)",
-      "items": [
-        { "label": "Google Ads Budget", "amount": 3000 },
-        { "label": "Local Services Ads Budget", "amount": 1000 }
+        { "label": "Management", "amount": 2500 },
+        { "label": "Ad Spend", "amount": 2500 }
       ]
     }
   ],
@@ -231,54 +249,54 @@
   "testimonials": [
     {
       "id": "1",
-      "quote": "Daniel and his team transformed our lead generation. We went from struggling to find quality leads to having more qualified opportunities than we can handle.",
-      "name": "Michael Torres",
-      "company": "Commercial Security Pro",
-      "badge": "Security Systems"
+      "quote": "I have no concerns recommending Digital Assembly",
+      "name": "Tom McCarthy",
+      "company": "HussetHR",
+      "badge": "Google Verified"
     },
     {
       "id": "2",
-      "quote": "The qualification process alone is worth the investment. No more wasting time on tire-kickers. Every lead they send is ready to buy.",
-      "name": "Sarah Chen",
-      "company": "Access Control Solutions",
-      "badge": "Access Control"
+      "quote": "Dan's producing more than 4x my cost to hire his firm",
+      "name": "Robert Dorsey",
+      "company": "Reconditioning Pros",
+      "badge": "Google Verified"
     },
     {
       "id": "3",
-      "quote": "We tried three other agencies before Digital Assembly. The difference is night and day. Real results, real accountability.",
-      "name": "David Martinez",
-      "company": "SecureTech Systems",
-      "badge": "B2B Services"
+      "quote": "Honest and proactive, a very rare attribute in the industry",
+      "name": "Irene Denton",
+      "company": "Lightning Locksmiths",
+      "badge": "Google Verified"
     },
     {
       "id": "4",
-      "quote": "The ROI has been incredible. We've grown 40% year over year since partnering with them.",
-      "name": "Jennifer Walsh",
-      "company": "Guardian Security",
-      "badge": "Security Services"
+      "quote": "Enhanced our digital footprint in a way that we couldn't have",
+      "name": "Rupert Harvey",
+      "company": "Smaart Recruitment",
+      "badge": "Google Verified"
     }
   ],
 
   "faqs": [
     {
       "question": "How quickly will I start seeing leads?",
-      "answer": "Most clients see their first qualified leads within 2-3 weeks of campaign launch. It takes about 60-90 days to fully optimize campaigns and reach consistent performance."
+      "answer": "Most clients see their first leads within 14 days as campaigns go live. The full 60-day build and proof phase is about stabilizing volume, improving quality, and pushing toward the agreed opportunity target."
     },
     {
-      "question": "What if the leads aren't qualified?",
-      "answer": "Every lead goes through our qualification process before reaching you. If a lead doesn't meet the agreed criteria, we don't count it and we don't charge for it. Simple."
+      "question": "What happens if it doesn't work?",
+      "answer": "If you meet the agreed stipulations and we don't deliver the promised volume of sales-ready opportunities, our guarantee applies and we refund 100% of our management fee for that period."
     },
     {
-      "question": "How is this different from other agencies I've tried?",
-      "answer": "Most agencies just run ads and send you form fills. We qualify every lead, transfer calls live during business hours, and only count opportunities that match your criteria. We're accountable to outcomes, not activities."
+      "question": "What do you need from us to make this successful?",
+      "answer": "Respond to leads fast, dedicate time each day to nurture opportunities, and follow up on every opportunity until you get a clear yes/no."
     },
     {
-      "question": "What's the minimum commitment?",
-      "answer": "We require a 90-day minimum commitment. It takes time to build momentum and optimize campaigns. After 90 days, the engagement is month-to-month."
+      "question": "How much time does this require from our team?",
+      "answer": "Outside of onboarding and a simple review rhythm, your time investment is minimal. You focus on calls and closing; we handle the system."
     },
     {
-      "question": "Can I see the ads and landing pages before they go live?",
-      "answer": "Absolutely. You'll approve all creative and messaging before anything goes live. We want you confident in how your brand is being represented."
+      "question": "Can we pause or cancel?",
+      "answer": "After the initial 60-day build and proof phase, it's month-to-month with no long contracts. You stay because the engine produces opportunities and revenue."
     }
   ]
 }

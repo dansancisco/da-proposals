@@ -66,13 +66,13 @@ export function AboutSection({
           </div>
 
           {/* Content Column */}
-          <div className="flex flex-1 flex-col justify-center gap-8 p-6 md:w-2/3 md:p-12">
+          <div className="flex flex-1 flex-col justify-center gap-6 p-8 md:w-2/3 md:p-12">
             <div>
-              <h2 className="font-display text-4xl font-bold uppercase">
+              <h2 className="mb-4 font-display text-4xl font-bold uppercase">
                 {headline}
               </h2>
               {founder && (
-                <div className="mt-3 flex gap-2">
+                <div className="flex gap-2">
                   <div className="bg-signal px-2 py-1 font-mono text-[10px] uppercase text-white">
                     {founder.role}
                   </div>
@@ -80,7 +80,7 @@ export function AboutSection({
               )}
             </div>
 
-            <p className="max-w-lg font-mono text-sm leading-relaxed text-neutral-600">
+            <p className="font-mono text-sm leading-relaxed text-neutral-600">
               {description}
             </p>
 

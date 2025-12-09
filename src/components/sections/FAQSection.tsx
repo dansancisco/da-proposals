@@ -16,7 +16,7 @@ function FAQItem({ faq, index }: { faq: FAQ; index: number }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="border border-black">
+    <div>
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="flex w-full items-center justify-between gap-4 p-6 text-left transition-colors hover:bg-neutral-50"

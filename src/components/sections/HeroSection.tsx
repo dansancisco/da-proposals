@@ -2,12 +2,14 @@ import { Reveal } from "@/components/common/Reveal";
 
 interface HeroSectionProps {
   clientName: string;
+  contactName: string;
   headline: string;
   subheadline: string;
 }
 
 export function HeroSection({
   clientName,
+  contactName,
   headline,
   subheadline,
 }: HeroSectionProps) {
@@ -18,9 +20,6 @@ export function HeroSection({
           <div className="flex items-center gap-1 border-r border-black px-3 py-1 text-signal">
             <div className="h-2 w-2 bg-signal" />
             Proposal
-          </div>
-          <div className="border-r border-black bg-neutral-100 px-3 py-1">
-            Prepared for: {clientName}
           </div>
           <div className="px-3 py-1">Confidential</div>
         </Reveal>
@@ -35,24 +34,14 @@ export function HeroSection({
         </Reveal>
 
         <Reveal delay={200}>
-          <a
-            href="#investment"
-            className="inline-flex items-center gap-4 bg-signal px-10 py-4 font-mono text-xs uppercase tracking-[0.1em] text-white transition-colors hover:bg-black"
-          >
-            <span>View Investment</span>
-            <svg
-              className="h-4 w-4"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="square"
-                strokeWidth={2}
-                d="M19 14l-7 7m0 0l-7-7m7 7V3"
-              />
-            </svg>
-          </a>
+          <div className="border border-black bg-white px-6 py-3">
+            <p className="font-mono text-sm">
+              <span className="text-neutral-500">Prepared for:</span>{" "}
+              <span className="text-black">{contactName}</span>
+              {" · "}
+              <span className="text-black">{clientName}</span>
+            </p>
+          </div>
         </Reveal>
       </div>
 

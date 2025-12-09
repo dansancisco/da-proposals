@@ -71,10 +71,6 @@ export function DeliverablesSection({
             </ul>
           </div>
         </div>
-        <div className="flex items-center justify-between border-t border-black bg-black px-4 py-2 font-mono text-[10px] uppercase text-white">
-          <div>Total Deliverables</div>
-          <div className="text-signal">{deliverables.length} Items</div>
-        </div>
       </Reveal>
     </section>
   );

@@ -42,7 +42,7 @@ export function TestimonialsSection({
   }, []);
 
   return (
-    <section className="mb-24 w-full bg-white py-24">
+    <section className="mb-24 w-full overflow-hidden bg-white py-24">
       <div className="mx-auto max-w-7xl px-6">
         <Reveal className="mb-12 flex items-end justify-between">
           <div>
@@ -53,10 +53,18 @@ export function TestimonialsSection({
               {title}
             </h2>
           </div>
+          <a
+            href="https://www.google.com/search?q=digital+assembly+south+yarra+reviews&sca_esv=382d87f28014534b&sxsrf=AE3TifOSzRGogjuLDWyRfChlr7X6JXpIdQ%3A1765311577238&ei=WYQ4aZ2jDoXrkvQPvJ-MsAk&ved=0ahUKEwjds-qLqrGRAxWFtYQIHbwPA5YQ4dUDCBE&uact=5&oq=digital+assembly+south+yarra+reviews&gs_lp=Egxnd3Mtd2l6LXNlcnAiJGRpZ2l0YWwgYXNzZW1ibHkgc291dGggeWFycmEgcmV2aWV3czIJEAAYsAMYCBgeMgkQABiwAxgIGB4yDhAAGIAEGLADGIYDGIoFMg4QABiABBiwAxiGAxiKBTILEAAYgAQYsAMYogQyCxAAGIAEGLADGKIEMggQABiwAxjvBTIIEAAYsAMY7wVIxxJQrQhYsRFwAXgAkAEAmAHKAaABlA6qAQYwLjEwLjG4AQPIAQD4AQGYAgGgAgGYAwCIBgGQBgiSBwExoAe6PbIHALgHAMIHAzAuMcgHAYAIAA&sclient=gws-wiz-serp#mpd=~11506456859822820716/customers/reviews"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-black bg-white px-4 py-2 font-mono text-[10px] uppercase transition-colors hover:bg-signal hover:text-white"
+          >
+            View Google Reviews →
+          </a>
         </Reveal>
       </div>
 
-      <div ref={marqueeRef} className="hover-pause">
+      <div ref={marqueeRef} className="hover-pause overflow-hidden">
         <div
           className="flex w-max py-8"
           style={{

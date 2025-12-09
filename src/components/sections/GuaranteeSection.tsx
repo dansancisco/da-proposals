@@ -12,7 +12,7 @@ export function GuaranteeSection({
   stipulations,
 }: GuaranteeSectionProps) {
   return (
-    <section className="mb-20 w-full max-w-7xl mx-auto px-6 md:mb-32">
+    <section className="mb-20 mt-20 w-full max-w-7xl mx-auto px-6 md:mb-32 md:mt-32">
       <Reveal className="mb-8 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
         <div className="border-l-2 border-signal pl-6">
           <h2 className="mb-2 font-display text-4xl font-bold uppercase">
