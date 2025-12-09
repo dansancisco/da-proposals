@@ -24,9 +24,9 @@ export function HeroSection({
           <div className="px-3 py-1">Confidential</div>
         </Reveal>
 
-        <Reveal delay={100} className="mb-12 max-w-4xl">
-          <h1 className="mb-8 font-display text-5xl font-bold uppercase leading-[0.95] text-black md:text-7xl lg:text-8xl">
-            <span className="block break-words hyphens-auto">{headline}</span>
+        <Reveal delay={100} className="mb-12 w-full max-w-5xl">
+          <h1 className="mb-8 font-display text-6xl font-bold uppercase leading-tight text-black md:text-7xl lg:text-8xl lg:leading-none">
+            <span className="block">{headline}</span>
           </h1>
           <p className="mx-auto max-w-2xl border-t border-black pt-4 font-mono text-sm uppercase tracking-[0.1em] text-neutral-500 md:text-base">
             {subheadline}
