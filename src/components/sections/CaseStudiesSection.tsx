@@ -8,6 +8,7 @@ interface CaseStudiesSectionProps {
     metric: string;
     description: string;
     image?: string;
+    link?: string;
   }[];
 }
 
@@ -29,11 +30,20 @@ export function CaseStudiesSection({ caseStudies }: CaseStudiesSectionProps) {
       </Reveal>
 
       <Reveal className="grid grid-cols-1 gap-px border border-black bg-black md:grid-cols-3">
-        {caseStudies.map((study, index) => (
-          <div
-            key={index}
-            className="group flex flex-col bg-white transition-colors"
-          >
+        {caseStudies.map((study, index) => {
+          const CardWrapper = study.link ? 'a' : 'div';
+          const linkProps = study.link ? {
+            href: study.link,
+            target: "_blank",
+            rel: "noopener noreferrer"
+          } : {};
+
+          return (
+            <CardWrapper
+              key={index}
+              className="group flex flex-col bg-white transition-colors hover:bg-neutral-50"
+              {...linkProps}
+            >
             {/* Image */}
             <div className="relative h-48 w-full border-b border-black bg-neutral-100">
               {study.image ? (
@@ -69,8 +79,9 @@ export function CaseStudiesSection({ caseStudies }: CaseStudiesSectionProps) {
                 </div>
               </div>
             </div>
-          </div>
-        ))}
+          </CardWrapper>
+          );
+        })}
       </Reveal>
     </section>
   );

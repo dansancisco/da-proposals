@@ -44,8 +44,8 @@ export interface Proposal {
     loomUrl?: string;
   };
 
-  // Client Rules
-  clientRules: {
+  // Client Rules (optional - will use defaults if not provided)
+  clientRules?: {
     title: string;
     description: string;
   }[];
@@ -57,6 +57,7 @@ export interface Proposal {
     metric: string;
     description: string;
     image?: string;
+    link?: string;
   }[];
 
   // Roadmap

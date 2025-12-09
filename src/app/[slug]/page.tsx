@@ -122,9 +122,7 @@ export default async function ProposalPage({
               <IncludedSection features={proposal.includedFeatures} />
             )}
 
-            {proposal.clientRules.length > 0 && (
-              <ClientRulesSection rules={proposal.clientRules} />
-            )}
+            <ClientRulesSection rules={proposal.clientRules} />
 
             {proposal.caseStudies.length > 0 && (
               <CaseStudiesSection caseStudies={proposal.caseStudies} />

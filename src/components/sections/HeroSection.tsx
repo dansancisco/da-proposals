@@ -25,14 +25,13 @@ export function HeroSection({
         </Reveal>
 
         <Reveal delay={100} className="mb-12 max-w-4xl">
-          <h1 className="mb-8 font-display text-5xl font-bold uppercase leading-[0.85] text-black md:text-7xl lg:text-8xl">
-            <span className="block">{headline}</span>
+          <h1 className="mb-8 font-display text-5xl font-bold uppercase leading-[0.95] text-black md:text-7xl lg:text-8xl">
+            <span className="block break-words hyphens-auto">{headline}</span>
           </h1>
           <p className="mx-auto max-w-2xl border-t border-black pt-4 font-mono text-sm uppercase tracking-[0.1em] text-neutral-500 md:text-base">
             {subheadline}
           </p>
         </Reveal>
-
         <Reveal delay={200}>
           <div className="border border-black bg-white px-6 py-3">
             <p className="font-mono text-sm">

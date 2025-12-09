@@ -112,39 +112,31 @@
     ]
   },
 
-  "clientRules": [
-    {
-      "title": "Same-Day Follow-Up",
-      "description": "Contact qualified leads within 4 hours (speed matters for commercial jobs)"
-    },
-    {
-      "title": "Project Photos",
-      "description": "Provide high-quality photos of completed propane tank, truck frame, and equipment work for website"
-    },
-    {
-      "title": "Monthly Reviews",
-      "description": "Join monthly strategy calls to review performance and adjust targeting"
-    }
-  ],
 
   "caseStudies": [
     {
       "company": "ProStrip Sandblasting",
       "sector": "Sandblasting",
       "metric": "4X",
-      "description": "Increase in mobile sandblasting jobs through Google Ads"
+      "description": "Increase in mobile sandblasting jobs through Google Ads",
+      "image": "/images/case-studies/prostrip.jpg",
+      "link": "https://digitalassembly.agency/case-studies/prostrip-sandblasting"
     },
     {
       "company": "Reconditioning Pros",
       "sector": "Industrial Refinishing",
       "metric": "4X",
-      "description": "ROI on industrial refinishing leads"
+      "description": "ROI on industrial refinishing leads",
+      "image": "/images/case-studies/reconditioning-pros.jpg",
+      "link": "https://digitalassembly.agency/case-studies/reconditioning-pros"
     },
     {
       "company": "Lotus",
       "sector": "Commercial Cleaning",
       "metric": "3X",
-      "description": "Increase in commercial service leads"
+      "description": "Increase in commercial service leads",
+      "image": "/images/case-studies/lotus.jpg",
+      "link": "https://digitalassembly.agency/case-studies/lotus"
     }
   ],
 
@@ -194,7 +186,7 @@
     }
   ],
 
-  "guarantee": "If we don't deliver at least 10 qualified industrial painting opportunities in the first 90 days of Google Ads launch, we'll refund 100% of our management fees for that period.",
+  "guarantee": "Once the Google Ads campaign kicks in during spring, we guarantee your phone will start ringing within 14 days. If you don't see qualified industrial painting opportunities flowing in after 14 days of ad spend, we'll refund 100% of that month's management fee.",
   "stipulations": [
     "Phase 1 (SEO) minimum 3-month commitment to allow rankings to build",
     "Phase 2 (Google Ads) ad spend maintained at $1,000/month minimum",

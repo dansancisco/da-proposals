@@ -22,8 +22,9 @@ export function SolutionSection({ overview, campaigns }: SolutionSectionProps) {
         </div>
       </Reveal>
 
-      <div className="grid gap-8 md:grid-cols-3">
-        <Reveal className="md:col-span-2">
+      <div className="space-y-8">
+        {/* Overview - Full Width */}
+        <Reveal>
           <div className="border border-black bg-white p-6 md:p-8">
             <div className="mb-6">
               <span className="border border-black px-2 py-0.5 font-mono text-[10px] uppercase">
@@ -36,32 +37,24 @@ export function SolutionSection({ overview, campaigns }: SolutionSectionProps) {
           </div>
         </Reveal>
 
-        <Reveal delay={100} className="md:col-span-1">
-          <div className="border border-black bg-black p-6 md:p-8 h-full">
-            <div className="mb-6">
-              <span className="border border-signal px-2 py-0.5 font-mono text-[10px] uppercase text-signal">
-                Campaigns
-              </span>
-            </div>
-            <div className="space-y-4">
-              {campaigns.map((campaign, index) => (
-                <div key={index} className="border-b border-white/20 pb-4 last:border-0 last:pb-0">
-                  <div className="flex items-start gap-3">
-                    <span className="font-mono text-lg font-bold text-signal">
-                      {String(index + 1).padStart(2, "0")}
-                    </span>
-                    <div>
-                      <h3 className="font-display font-bold uppercase text-white mb-1">
-                        {campaign.name}
-                      </h3>
-                      <p className="font-mono text-xs leading-relaxed text-neutral-400">
-                        {campaign.description}
-                      </p>
-                    </div>
-                  </div>
+        {/* Campaigns - Grid Below */}
+        <Reveal delay={100}>
+          <div className="grid gap-6 md:grid-cols-2">
+            {campaigns.map((campaign, index) => (
+              <div key={index} className="border border-black bg-black p-6 md:p-8">
+                <div className="mb-6">
+                  <span className="border border-signal px-2 py-0.5 font-mono text-[10px] uppercase text-signal">
+                    Campaign {String(index + 1).padStart(2, "0")}
+                  </span>
                 </div>
-              ))}
-            </div>
+                <h3 className="font-display text-xl font-bold uppercase text-white mb-4">
+                  {campaign.name}
+                </h3>
+                <p className="font-mono text-sm leading-relaxed text-neutral-400">
+                  {campaign.description}
+                </p>
+              </div>
+            ))}
           </div>
         </Reveal>
       </div>

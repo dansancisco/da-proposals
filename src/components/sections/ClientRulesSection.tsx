@@ -1,13 +1,28 @@
 import { Reveal } from "@/components/common/Reveal";
 
 interface ClientRulesSectionProps {
-  rules: {
+  rules?: {
     title: string;
     description: string;
   }[];
 }
 
-export function ClientRulesSection({ rules }: ClientRulesSectionProps) {
+const DEFAULT_RULES = [
+  {
+    title: "Respond Fast",
+    description: "These are sales-ready opportunities. Speed matters. The faster you respond, the more deals you close. Aim to contact qualified leads within 4 hours—ideally within the first hour."
+  },
+  {
+    title: "Make Time",
+    description: "Block time each day to call back leads. Set calendar reminders. Treat lead follow-up like client appointments—non-negotiable blocks on your calendar."
+  },
+  {
+    title: "Follow Up",
+    description: "Send the quote or proposal within 24 hours. Set a follow-up reminder for 2-3 days later. Most deals are won or lost in the follow-up, not the first conversation."
+  }
+];
+
+export function ClientRulesSection({ rules = DEFAULT_RULES }: ClientRulesSectionProps) {
   return (
     <section className="mb-20 w-full max-w-7xl mx-auto px-6 md:mb-32">
       <Reveal className="mb-8 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
