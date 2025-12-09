@@ -19,6 +19,7 @@ body {
   -webkit-font-smoothing: antialiased;
   background-color: #ffffff;
   color: #000000;
+  cursor: crosshair;
 }
 
 a,
@@ -26,6 +27,7 @@ button,
 [role="button"],
 input[type="submit"],
 input[type="button"],
+input[type="range"],
 label[for],
 [onclick],
 .cursor-pointer {
@@ -87,6 +89,36 @@ h6 {
 
 .hover-signal:hover * {
   color: #ffffff !important;
+}
+
+/* Testimonials Marquee Animation */
+.animate-scroll {
+  animation: scroll 40s linear infinite;
+  width: max-content;
+  will-change: transform;
+}
+
+.hover-pause:hover .animate-scroll,
+.hover-pause:hover [style*="animation"] {
+  animation-play-state: paused !important;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+/* Card shadows for testimonials */
+.shadow-card {
+  box-shadow: 4px 4px 0 0 rgba(0, 0, 0, 1);
+}
+
+.shadow-card-signal {
+  box-shadow: 4px 4px 0 0 var(--signal);
 }
 
 /* ROI Calculator Range Slider */

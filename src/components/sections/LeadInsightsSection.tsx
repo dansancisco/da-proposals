@@ -12,60 +12,80 @@ export function LeadInsightsSection({
   loomUrl,
 }: LeadInsightsSectionProps) {
   return (
-    <section className="py-20 md:py-32 bg-neutral-50 bg-grid-tech">
-      <div className="max-w-shell mx-auto px-4 md:px-8">
-        <Reveal>
-          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+    <section className="mb-20 w-full max-w-7xl mx-auto px-6 md:mb-32">
+      <Reveal className="mb-8 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+        <div className="border-l-2 border-signal pl-6">
+          <h2 className="mb-2 font-display text-4xl font-bold uppercase">
             {title}
           </h2>
-        </Reveal>
-
-        <Reveal delay={50}>
-          <p className="text-lg text-neutral-600 mb-12 max-w-2xl">
-            See every opportunity, know where it came from, and what to do next.
+          <p className="font-mono text-sm uppercase text-neutral-500">
+            See every opportunity, know where it came from.
           </p>
-        </Reveal>
+        </div>
+        <div className="hidden items-center gap-2 border border-black px-3 py-1 font-mono text-[10px] uppercase md:flex">
+          <div className="h-2 w-2 bg-signal" />
+          {points.length} Data Points
+        </div>
+      </Reveal>
 
-        <div className="grid md:grid-cols-2 gap-12">
-          <div>
+      <Reveal className="border border-black bg-white">
+        <div className="grid md:grid-cols-2">
+          {/* Points List */}
+          <div className="border-b border-black p-8 md:border-b-0 md:border-r md:p-12">
             <ul className="space-y-4">
               {points.map((point, index) => (
-                <Reveal key={index} delay={100 + index * 50}>
-                  <li className="flex items-start gap-4">
-                    <span className="text-signal mt-1">
-                      <svg
-                        className="w-5 h-5"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          strokeLinecap="square"
-                          strokeWidth={2}
-                          d="M5 13l4 4L19 7"
-                        />
-                      </svg>
-                    </span>
-                    <span>{point}</span>
-                  </li>
-                </Reveal>
+                <li key={index} className="flex items-start gap-4">
+                  <span className="flex h-6 w-6 flex-shrink-0 items-center justify-center border border-black font-mono text-xs">
+                    {String(index + 1).padStart(2, "0")}
+                  </span>
+                  <span className="font-mono text-sm leading-relaxed">
+                    {point}
+                  </span>
+                </li>
               ))}
             </ul>
           </div>
 
-          {loomUrl && (
-            <Reveal delay={200}>
-              <div className="aspect-video bg-neutral-200 border-2 border-black relative overflow-hidden">
+          {/* Video or Placeholder */}
+          <div className="flex items-center justify-center bg-neutral-50 p-8 md:p-12">
+            {loomUrl ? (
+              <div className="aspect-video w-full border border-black bg-black">
                 <iframe
                   src={loomUrl}
-                  className="absolute inset-0 w-full h-full"
+                  className="h-full w-full"
                   allowFullScreen
                 />
               </div>
-            </Reveal>
-          )}
+            ) : (
+              <div className="flex aspect-video w-full flex-col items-center justify-center border border-black bg-neutral-100">
+                <div className="mb-4 flex h-16 w-16 items-center justify-center border border-black text-signal">
+                  <svg
+                    className="h-8 w-8"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="square"
+                      strokeWidth={1.5}
+                      d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+                    />
+                  </svg>
+                </div>
+                <span className="font-mono text-[10px] uppercase text-neutral-500">
+                  Dashboard Preview
+                </span>
+              </div>
+            )}
+          </div>
         </div>
-      </div>
+
+        {/* Footer Bar */}
+        <div className="flex items-center justify-between border-t border-black bg-black px-4 py-2 font-mono text-[10px] uppercase text-white">
+          <div>Lead Data</div>
+          <div className="text-signal">Full Visibility</div>
+        </div>
+      </Reveal>
     </section>
   );
 }

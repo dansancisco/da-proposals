@@ -10,47 +10,60 @@ interface SolutionSectionProps {
 
 export function SolutionSection({ overview, campaigns }: SolutionSectionProps) {
   return (
-    <section className="py-20 md:py-32 bg-neutral-50 bg-grid-tech">
-      <div className="max-w-shell mx-auto px-4 md:px-8">
-        <div className="grid md:grid-cols-2 gap-12 md:gap-20">
-          <div>
-            <Reveal>
-              <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold mb-8">
-                What we&apos;re going to do:
-              </h2>
-            </Reveal>
+    <section className="mb-20 w-full max-w-7xl mx-auto px-6 md:mb-32">
+      <Reveal className="mb-8 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+        <div className="border-l-2 border-signal pl-6">
+          <h2 className="mb-2 font-display text-4xl font-bold uppercase">
+            The Solution
+          </h2>
+          <p className="font-mono text-sm uppercase text-neutral-500">
+            How we&apos;ll solve this for you.
+          </p>
+        </div>
+      </Reveal>
 
-            <Reveal delay={50}>
-              <p className="text-lg text-neutral-600 mb-8">{overview}</p>
-            </Reveal>
+      <div className="grid gap-8 md:grid-cols-3">
+        <Reveal className="md:col-span-2">
+          <div className="border border-black bg-white p-6 md:p-8">
+            <div className="mb-6">
+              <span className="border border-black px-2 py-0.5 font-mono text-[10px] uppercase">
+                Overview
+              </span>
+            </div>
+            <p className="font-mono text-sm leading-relaxed text-neutral-700">
+              {overview}
+            </p>
+          </div>
+        </Reveal>
 
-            <div className="space-y-6">
+        <Reveal delay={100} className="md:col-span-1">
+          <div className="border border-black bg-black p-6 md:p-8 h-full">
+            <div className="mb-6">
+              <span className="border border-signal px-2 py-0.5 font-mono text-[10px] uppercase text-signal">
+                Campaigns
+              </span>
+            </div>
+            <div className="space-y-4">
               {campaigns.map((campaign, index) => (
-                <Reveal key={index} delay={100 + index * 50}>
-                  <div className="flex gap-4">
-                    <span className="font-mono text-signal font-bold">
-                      {index + 1}.
+                <div key={index} className="border-b border-white/20 pb-4 last:border-0 last:pb-0">
+                  <div className="flex items-start gap-3">
+                    <span className="font-mono text-lg font-bold text-signal">
+                      {String(index + 1).padStart(2, "0")}
                     </span>
                     <div>
-                      <h3 className="font-bold mb-1">{campaign.name}</h3>
-                      <p className="text-neutral-600 text-sm">
+                      <h3 className="font-display font-bold uppercase text-white mb-1">
+                        {campaign.name}
+                      </h3>
+                      <p className="font-mono text-xs leading-relaxed text-neutral-400">
                         {campaign.description}
                       </p>
                     </div>
                   </div>
-                </Reveal>
+                </div>
               ))}
             </div>
           </div>
-
-          <div className="hidden md:block">
-            <Reveal delay={200}>
-              <div className="aspect-[4/3] bg-neutral-200 border-2 border-black relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-signal/20 to-transparent" />
-              </div>
-            </Reveal>
-          </div>
-        </div>
+        </Reveal>
       </div>
     </section>
   );

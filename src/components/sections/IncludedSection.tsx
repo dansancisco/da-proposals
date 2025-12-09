@@ -8,28 +8,73 @@ interface IncludedSectionProps {
   }[];
 }
 
+const iconMap: Record<string, JSX.Element> = {
+  phone: (
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="square">
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+    </svg>
+  ),
+  filter: (
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="square">
+      <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/>
+    </svg>
+  ),
+  chart: (
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="square">
+      <line x1="18" y1="20" x2="18" y2="10"/>
+      <line x1="12" y1="20" x2="12" y2="4"/>
+      <line x1="6" y1="20" x2="6" y2="14"/>
+    </svg>
+  ),
+  headset: (
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="square">
+      <path d="M3 18v-6a9 9 0 0 1 18 0v6"/>
+      <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/>
+    </svg>
+  ),
+};
+
 export function IncludedSection({ features }: IncludedSectionProps) {
   return (
-    <section className="py-20 md:py-32 bg-white">
-      <div className="max-w-shell mx-auto px-4 md:px-8">
-        <Reveal>
-          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold mb-12">
-            What&apos;s included
+    <section className="mb-20 w-full max-w-7xl mx-auto px-6 md:mb-32">
+      <Reveal className="mb-8 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+        <div className="border-l-2 border-signal pl-6">
+          <h2 className="mb-2 font-display text-4xl font-bold uppercase">
+            What&apos;s Included
           </h2>
-        </Reveal>
-
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {features.map((feature, index) => (
-            <Reveal key={index} delay={index * 50}>
-              <div className="p-6 border-2 border-black hover:shadow-card transition-shadow">
-                <span className="text-2xl mb-4 block">{feature.icon}</span>
-                <h3 className="font-bold mb-2">{feature.title}</h3>
-                <p className="text-sm text-neutral-600">{feature.description}</p>
-              </div>
-            </Reveal>
-          ))}
+          <p className="font-mono text-sm uppercase text-neutral-500">
+            Standard with every engagement.
+          </p>
         </div>
-      </div>
+      </Reveal>
+
+      <Reveal className="grid grid-cols-1 gap-px border border-black bg-black md:grid-cols-2 lg:grid-cols-4">
+        {features.map((feature, index) => (
+          <div
+            key={index}
+            className="group flex flex-col bg-white p-6 transition-colors hover:bg-neutral-50"
+          >
+            <div className="mb-6 flex items-start justify-between">
+              <span className="border border-black px-2 py-0.5 font-mono text-[10px] uppercase">
+                {String(index + 1).padStart(2, "0")}
+              </span>
+              <div className="text-signal">
+                {iconMap[feature.icon] || (
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="square">
+                    <polyline points="20 6 9 17 4 12"/>
+                  </svg>
+                )}
+              </div>
+            </div>
+            <h3 className="mb-2 font-display text-lg font-bold uppercase">
+              {feature.title}
+            </h3>
+            <p className="font-mono text-xs leading-relaxed text-neutral-600">
+              {feature.description}
+            </p>
+          </div>
+        ))}
+      </Reveal>
     </section>
   );
 }

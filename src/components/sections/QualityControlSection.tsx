@@ -11,43 +11,87 @@ export function QualityControlSection({
   criteria,
 }: QualityControlSectionProps) {
   return (
-    <section className="py-20 md:py-32 bg-white">
-      <div className="max-w-shell mx-auto px-4 md:px-8">
-        <Reveal>
-          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-            Quality control
+    <section className="mb-20 w-full max-w-7xl mx-auto px-6 md:mb-32">
+      <Reveal className="mb-8 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+        <div className="max-w-2xl">
+          <h2 className="mb-2 font-display text-4xl font-bold uppercase">
+            Quality Control
           </h2>
-        </Reveal>
-
-        <Reveal delay={50}>
-          <p className="text-lg text-neutral-600 mb-12 max-w-2xl">
-            How we ensure every opportunity is &ldquo;sales ready&rdquo;.
+          <p className="font-mono text-sm uppercase text-neutral-500">
+            How we qualify every opportunity.
           </p>
-        </Reveal>
+        </div>
+        <div className="hidden items-center gap-2 border border-black px-3 py-1 font-mono text-[10px] uppercase md:flex">
+          <div className="h-2 w-2 bg-signal" />
+          Active Filters: {criteria.length}
+        </div>
+      </Reveal>
 
-        <div className="space-y-4">
-          {criteria.map((item, index) => (
-            <Reveal key={index} delay={100 + index * 50}>
-              <div className="flex gap-4 items-start p-4 border-2 border-black hover:bg-neutral-50 transition-colors">
-                <span className="font-mono text-signal font-bold text-sm">
-                  {String(index + 1).padStart(2, "0")}
+      <Reveal className="border border-black bg-white">
+        <div className="grid divide-y divide-black md:grid-cols-3 md:divide-x md:divide-y-0">
+          {criteria.slice(0, 3).map((item, index) => (
+            <div
+              key={index}
+              className="group p-6 transition-colors hover:bg-neutral-50 md:p-8"
+            >
+              <div className="mb-8 flex items-start justify-between">
+                <span className="border border-black px-2 py-0.5 font-mono text-[10px] uppercase">
+                  Gate {String(index + 1).padStart(2, "0")}
                 </span>
-                <div>
-                  <span className="font-bold">{item.label}</span>
-                  <span className="text-neutral-600"> - {item.description}</span>
+                <div className="text-signal">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    strokeLinecap="square"
+                  >
+                    <polyline points="9 11 12 14 22 4" />
+                    <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11" />
+                  </svg>
                 </div>
               </div>
-            </Reveal>
+              <h3 className="mb-2 font-display text-lg font-bold uppercase">
+                {item.label}
+              </h3>
+              <p className="font-mono text-xs leading-relaxed text-neutral-600">
+                {item.description}
+              </p>
+            </div>
           ))}
         </div>
 
-        <Reveal delay={300}>
-          <p className="mt-8 text-sm text-neutral-500 font-mono">
-            If an inquiry does not pass these gates, it does not count as a
-            sales ready opportunity.
-          </p>
-        </Reveal>
-      </div>
+        {criteria.length > 3 && (
+          <div className="grid divide-y divide-black border-t border-black md:grid-cols-2 md:divide-x md:divide-y-0">
+            {criteria.slice(3).map((item, index) => (
+              <div
+                key={index + 3}
+                className="group p-6 transition-colors hover:bg-neutral-50 md:p-8"
+              >
+                <div className="mb-4 flex items-start justify-between">
+                  <span className="border border-black px-2 py-0.5 font-mono text-[10px] uppercase">
+                    Gate {String(index + 4).padStart(2, "0")}
+                  </span>
+                </div>
+                <h3 className="mb-2 font-display text-lg font-bold uppercase">
+                  {item.label}
+                </h3>
+                <p className="font-mono text-xs leading-relaxed text-neutral-600">
+                  {item.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        )}
+
+        <div className="flex items-center justify-between border-t border-black bg-black px-4 py-2 font-mono text-[10px] uppercase text-white">
+          <div>Filter Status</div>
+          <div className="text-signal">100% Verification</div>
+        </div>
+      </Reveal>
     </section>
   );
 }

@@ -22,6 +22,7 @@ import { GuaranteeSection } from "@/components/sections/GuaranteeSection";
 import { ScopeSection } from "@/components/sections/ScopeSection";
 import { AboutSection } from "@/components/sections/AboutSection";
 import { FAQSection } from "@/components/sections/FAQSection";
+import { TestimonialsSection } from "@/components/sections/TestimonialsSection";
 
 import type { Proposal } from "@/types/proposal";
 
@@ -90,80 +91,88 @@ export default async function ProposalPage({
   return (
     <PasswordGate proposal={proposal}>
       <div className="min-h-screen bg-white">
-        <ProposalHeader contactName={proposal.contactName} />
+        <ProposalHeader />
 
         <main>
+          {/* Hero outside grid background like homepage */}
           <HeroSection
             clientName={proposal.clientName}
             headline={proposal.headline}
             subheadline={proposal.subheadline}
           />
 
-          <SituationSection points={proposal.situationPoints} />
+          {/* Grid background wrapper for main content - matches homepage */}
+          <div className="bg-grid-tech">
+            <SituationSection points={proposal.situationPoints} />
 
-          <SolutionSection
-            overview={proposal.solutionOverview}
-            campaigns={proposal.campaigns}
-          />
-
-          {proposal.qualificationCriteria.length > 0 && (
-            <QualityControlSection criteria={proposal.qualificationCriteria} />
-          )}
-
-          {proposal.deliverables.length > 0 && (
-            <DeliverablesSection deliverables={proposal.deliverables} />
-          )}
-
-          {proposal.includedFeatures.length > 0 && (
-            <IncludedSection features={proposal.includedFeatures} />
-          )}
-
-          {proposal.leadInsights && (
-            <LeadInsightsSection
-              title={proposal.leadInsights.title}
-              points={proposal.leadInsights.points}
-              loomUrl={proposal.leadInsights.loomUrl}
+            <SolutionSection
+              overview={proposal.solutionOverview}
+              campaigns={proposal.campaigns}
             />
-          )}
 
-          {proposal.clientRules.length > 0 && (
-            <ClientRulesSection rules={proposal.clientRules} />
-          )}
+            {proposal.qualificationCriteria.length > 0 && (
+              <QualityControlSection criteria={proposal.qualificationCriteria} />
+            )}
 
-          {proposal.caseStudies.length > 0 && (
-            <CaseStudiesSection caseStudies={proposal.caseStudies} />
-          )}
+            {proposal.deliverables.length > 0 && (
+              <DeliverablesSection deliverables={proposal.deliverables} />
+            )}
 
-          {proposal.roadmap.length > 0 && (
-            <RoadmapSection roadmap={proposal.roadmap} />
-          )}
+            {proposal.includedFeatures.length > 0 && (
+              <IncludedSection features={proposal.includedFeatures} />
+            )}
 
-          <ROICalculatorSection defaults={proposal.roiDefaults} />
+            {proposal.leadInsights && (
+              <LeadInsightsSection
+                title={proposal.leadInsights.title}
+                points={proposal.leadInsights.points}
+                loomUrl={proposal.leadInsights.loomUrl}
+              />
+            )}
 
-          <InvestmentSection phases={proposal.phases} />
+            {proposal.clientRules.length > 0 && (
+              <ClientRulesSection rules={proposal.clientRules} />
+            )}
 
-          <GuaranteeSection
-            guarantee={proposal.guarantee}
-            stipulations={proposal.stipulations}
-          />
+            {proposal.caseStudies.length > 0 && (
+              <CaseStudiesSection caseStudies={proposal.caseStudies} />
+            )}
 
-          <ScopeSection
-            includes={proposal.scopeIncludes}
-            excludes={proposal.scopeExcludes}
-          />
+            {proposal.testimonials && proposal.testimonials.length > 0 && (
+              <TestimonialsSection testimonials={proposal.testimonials} />
+            )}
 
-          <AboutSection
-            description={proposal.about.intro}
-            team={[
-              {
-                name: proposal.about.founderName,
-                role: proposal.about.founderTitle,
-                bio: "",
-              },
-            ]}
-          />
+            {proposal.roadmap.length > 0 && (
+              <RoadmapSection roadmap={proposal.roadmap} />
+            )}
 
-          {proposal.faqs.length > 0 && <FAQSection faqs={proposal.faqs} />}
+            <ROICalculatorSection defaults={proposal.roiDefaults} />
+
+            <InvestmentSection phases={proposal.phases} />
+
+            <GuaranteeSection
+              guarantee={proposal.guarantee}
+              stipulations={proposal.stipulations}
+            />
+
+            <ScopeSection
+              includes={proposal.scopeIncludes}
+              excludes={proposal.scopeExcludes}
+            />
+
+            <AboutSection
+              description={proposal.about.intro}
+              team={[
+                {
+                  name: proposal.about.founderName,
+                  role: proposal.about.founderTitle,
+                  bio: "",
+                },
+              ]}
+            />
+
+            {proposal.faqs.length > 0 && <FAQSection faqs={proposal.faqs} />}
+          </div>
         </main>
 
         <ProposalFooter />

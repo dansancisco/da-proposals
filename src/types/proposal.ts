@@ -107,4 +107,13 @@ export interface Proposal {
     question: string;
     answer: string;
   }[];
+
+  // Testimonials (optional)
+  testimonials?: {
+    id: string;
+    quote: string;
+    name: string;
+    company: string;
+    badge?: string;
+  }[];
 }

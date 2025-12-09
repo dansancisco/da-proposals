@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Reveal } from "@/components/common/Reveal";
 
 interface CaseStudiesSectionProps {
@@ -12,61 +13,65 @@ interface CaseStudiesSectionProps {
 
 export function CaseStudiesSection({ caseStudies }: CaseStudiesSectionProps) {
   return (
-    <section className="py-20 md:py-32 bg-neutral-50">
-      <div className="max-w-shell mx-auto px-4 md:px-8">
-        <div className="flex items-center justify-between mb-12">
-          <Reveal>
-            <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold">
-              Results we&apos;ve delivered
-            </h2>
-          </Reveal>
+    <section className="mb-20 w-full max-w-7xl mx-auto px-6 md:mb-32">
+      <Reveal className="mb-8 flex items-end justify-between border-b border-black pb-4">
+        <h2 className="font-display text-4xl font-bold uppercase">
+          Case Studies
+        </h2>
+        <a
+          href="https://digitalassembly.agency/case-studies"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-2 py-1 font-mono text-[10px] uppercase text-neutral-500 transition-colors hover:bg-signal hover:text-white"
+        >
+          View more results -&gt;
+        </a>
+      </Reveal>
 
-          <Reveal delay={50}>
-            <a
-              href="https://digitalassembly.agency/case-studies"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hidden md:inline-block bg-signal text-white px-6 py-3 font-mono text-xs uppercase tracking-widest hover:bg-black transition-colors"
-            >
-              See More
-            </a>
-          </Reveal>
-        </div>
-
-        <div className="grid md:grid-cols-3 gap-6">
-          {caseStudies.map((study, index) => (
-            <Reveal key={index} delay={index * 50}>
-              <div className="bg-white border-2 border-black overflow-hidden hover:shadow-card transition-shadow">
-                <div className="aspect-video bg-neutral-200 relative">
-                  {study.image ? (
-                    <div
-                      className="absolute inset-0 bg-cover bg-center"
-                      style={{ backgroundImage: `url(${study.image})` }}
-                    />
-                  ) : (
-                    <div className="absolute inset-0 flex items-center justify-center bg-black text-white p-4">
-                      <span className="font-display text-xl font-bold text-center">
-                        {study.company}
-                      </span>
-                    </div>
-                  )}
+      <Reveal className="grid grid-cols-1 gap-px border border-black bg-black md:grid-cols-3">
+        {caseStudies.map((study, index) => (
+          <div
+            key={index}
+            className="group flex flex-col bg-white transition-colors"
+          >
+            {/* Image */}
+            <div className="relative h-48 w-full border-b border-black bg-neutral-100">
+              {study.image ? (
+                <Image
+                  src={study.image}
+                  alt={study.company}
+                  fill
+                  sizes="(min-width:768px) 33vw, 100vw"
+                  className="h-full w-full object-cover contrast-125 grayscale transition-all group-hover:grayscale-0"
+                />
+              ) : (
+                <div className="flex h-full w-full items-center justify-center bg-black">
+                  <span className="font-display text-xl font-bold text-white">
+                    {study.company}
+                  </span>
                 </div>
-                <div className="p-6">
-                  <div className="font-display text-4xl font-bold text-signal mb-2">
-                    {study.metric}
-                  </div>
-                  <p className="text-sm text-neutral-600 mb-2">
-                    {study.description}
-                  </p>
-                  <p className="font-mono text-xs text-neutral-400 uppercase">
-                    Sector: {study.sector}
-                  </p>
+              )}
+            </div>
+
+            {/* Content */}
+            <div className="flex flex-1 flex-col justify-between p-6">
+              <div>
+                <div className="mb-2 font-display text-6xl font-bold tracking-tighter text-signal">
+                  {study.metric}
+                </div>
+                <p className="font-display text-sm font-bold uppercase leading-tight">
+                  {study.description}
+                </p>
+              </div>
+              <div className="mt-4 border-t border-black/10 pt-4">
+                <div className="font-mono text-[10px] uppercase text-neutral-500">
+                  Sector: {study.sector}
                 </div>
               </div>
-            </Reveal>
-          ))}
-        </div>
-      </div>
+            </div>
+          </div>
+        ))}
+      </Reveal>
     </section>
   );
 }

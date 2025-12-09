@@ -10,38 +10,50 @@ interface RoadmapSectionProps {
 
 export function RoadmapSection({ roadmap }: RoadmapSectionProps) {
   return (
-    <section className="py-20 md:py-32 bg-white">
-      <div className="max-w-shell mx-auto px-4 md:px-8">
-        <Reveal>
-          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-            60 day roadmap
+    <section className="mb-20 w-full max-w-7xl mx-auto px-6 md:mb-32">
+      <Reveal className="mb-8 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+        <div className="border-l-2 border-signal pl-6">
+          <h2 className="mb-2 font-display text-4xl font-bold uppercase">
+            60-Day Roadmap
           </h2>
-        </Reveal>
-
-        <Reveal delay={50}>
-          <p className="text-lg text-neutral-600 mb-12 max-w-2xl">
-            When leads start and what is in place at each step.
+          <p className="font-mono text-sm uppercase text-neutral-500">
+            What happens and when.
           </p>
-        </Reveal>
+        </div>
+        <div className="hidden items-center gap-2 border border-black px-3 py-1 font-mono text-[10px] uppercase md:flex">
+          <div className="h-2 w-2 bg-signal" />
+          {roadmap.length} Phases
+        </div>
+      </Reveal>
 
-        <div className="space-y-8">
+      <Reveal className="border border-black bg-white">
+        <div className="divide-y divide-black">
           {roadmap.map((item, index) => (
-            <Reveal key={index} delay={100 + index * 50}>
-              <div className="grid md:grid-cols-12 gap-4 md:gap-8 p-6 border-l-4 border-signal bg-neutral-50">
-                <div className="md:col-span-3">
-                  <span className="font-mono text-sm text-signal font-bold uppercase">
-                    {item.phase}
-                  </span>
-                  <h3 className="font-display text-xl font-bold">{item.title}</h3>
-                </div>
-                <div className="md:col-span-9">
-                  <p className="text-neutral-600">{item.description}</p>
-                </div>
+            <div
+              key={index}
+              className="group grid transition-colors hover:bg-neutral-50 md:grid-cols-12"
+            >
+              <div className="border-b border-black bg-black p-4 text-white md:col-span-3 md:border-b-0 md:border-r">
+                <span className="mb-1 block font-mono text-[10px] uppercase text-signal">
+                  {item.phase}
+                </span>
+                <h3 className="font-display text-lg font-bold uppercase">
+                  {item.title}
+                </h3>
               </div>
-            </Reveal>
+              <div className="p-6 md:col-span-9 md:p-8">
+                <p className="font-mono text-sm leading-relaxed text-neutral-600">
+                  {item.description}
+                </p>
+              </div>
+            </div>
           ))}
         </div>
-      </div>
+        <div className="flex items-center justify-between border-t border-black bg-neutral-100 px-4 py-2 font-mono text-[10px] uppercase">
+          <div>Timeline</div>
+          <div className="text-signal">On Track</div>
+        </div>
+      </Reveal>
     </section>
   );
 }

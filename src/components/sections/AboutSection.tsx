@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Reveal } from "@/components/common/Reveal";
 
 interface TeamMember {
@@ -17,6 +18,7 @@ interface AboutSectionProps {
     value: string;
   }[];
   team?: TeamMember[];
+  founderImage?: string;
 }
 
 export function AboutSection({
@@ -24,79 +26,81 @@ export function AboutSection({
   description,
   stats,
   team,
+  founderImage = "/images/founder.jpg",
 }: AboutSectionProps) {
+  // Get the primary team member (founder)
+  const founder = team?.[0];
+
   return (
-    <section className="py-20 md:py-32 bg-black text-white">
-      <div className="max-w-shell mx-auto px-4 md:px-8">
-        <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
-          <div>
-            <Reveal>
-              <div className="border-l-4 border-signal pl-6">
-                <h2 className="mb-4 font-display text-3xl md:text-4xl font-bold">
-                  {headline}
-                </h2>
+    <section className="mb-20 w-full max-w-7xl mx-auto px-6 md:mb-32">
+      <Reveal className="border border-black bg-white">
+        {/* Header Bar */}
+        <div className="flex h-8 items-center justify-between bg-black px-4">
+          <div className="flex items-center gap-2">
+            <div className="h-2 w-2 bg-signal" />
+            <span className="font-mono text-[10px] uppercase text-white">
+              Your key contact // ID: 001
+            </span>
+          </div>
+        </div>
+
+        <div className="flex flex-col md:flex-row">
+          {/* Image Column */}
+          <div className="flex w-full items-center justify-center border-b border-black bg-neutral-100 p-8 md:w-1/3 md:border-b-0 md:border-r">
+            <div className="relative aspect-square w-full max-w-xs border border-black bg-white p-1">
+              <div className="relative h-full w-full">
+                <Image
+                  src={founderImage}
+                  alt={founder?.name || "Daniel Sandoval"}
+                  fill
+                  sizes="(min-width: 768px) 33vw, 100vw"
+                  className="object-cover contrast-125"
+                />
               </div>
-            </Reveal>
-
-            <Reveal delay={100}>
-              <p className="mt-6 text-lg leading-relaxed text-neutral-300">
-                {description}
-              </p>
-            </Reveal>
-
-            {stats && stats.length > 0 && (
-              <Reveal delay={200}>
-                <div className="mt-10 grid grid-cols-2 gap-6 border-t border-white/20 pt-10 md:grid-cols-4">
-                  {stats.map((stat, index) => (
-                    <div key={index}>
-                      <span className="block font-display text-3xl font-bold text-signal">
-                        {stat.value}
-                      </span>
-                      <span className="mt-1 block font-mono text-xs uppercase tracking-widest text-neutral-400">
-                        {stat.label}
-                      </span>
-                    </div>
-                  ))}
-                </div>
-              </Reveal>
-            )}
+              {/* Corner decorations */}
+              <div className="absolute left-0 top-0 h-2 w-2 border-l border-t border-black" />
+              <div className="absolute right-0 top-0 h-2 w-2 border-r border-t border-black" />
+              <div className="absolute bottom-0 left-0 h-2 w-2 border-b border-l border-black" />
+              <div className="absolute bottom-0 right-0 h-2 w-2 border-b border-r border-black" />
+            </div>
           </div>
 
-          {team && team.length > 0 && (
+          {/* Content Column */}
+          <div className="flex flex-1 flex-col justify-center gap-8 p-6 md:w-2/3 md:p-12">
             <div>
-              <Reveal delay={150}>
-                <h3 className="mb-6 font-mono text-xs uppercase tracking-widest text-neutral-500">
-                  Your Team
-                </h3>
-              </Reveal>
+              <h2 className="font-display text-4xl font-bold uppercase">
+                {headline}
+              </h2>
+              {founder && (
+                <div className="mt-3 flex gap-2">
+                  <div className="bg-signal px-2 py-1 font-mono text-[10px] uppercase text-white">
+                    {founder.role}
+                  </div>
+                </div>
+              )}
+            </div>
 
-              <div className="space-y-6">
-                {team.map((member, index) => (
-                  <Reveal key={member.name} delay={200 + index * 50}>
-                    <div className="flex gap-4 border-2 border-white/20 bg-white/5 p-4">
-                      <div className="flex h-16 w-16 flex-shrink-0 items-center justify-center bg-signal font-display text-2xl font-bold text-white">
-                        {member.name
-                          .split(" ")
-                          .map((n) => n[0])
-                          .join("")}
-                      </div>
-                      <div className="flex-1">
-                        <h4 className="font-display text-lg font-bold">
-                          {member.name}
-                        </h4>
-                        <p className="mb-2 font-mono text-xs uppercase tracking-widest text-signal">
-                          {member.role}
-                        </p>
-                        <p className="text-sm text-neutral-400">{member.bio}</p>
-                      </div>
+            <p className="max-w-lg font-mono text-sm leading-relaxed text-neutral-600">
+              {description}
+            </p>
+
+            {stats && stats.length > 0 && (
+              <div className="grid grid-cols-2 gap-px border border-black bg-black md:grid-cols-4">
+                {stats.map((stat, index) => (
+                  <div key={index} className="bg-white p-4">
+                    <div className="text-xl font-bold text-black">
+                      {stat.value}
                     </div>
-                  </Reveal>
+                    <div className="font-mono text-[10px] uppercase text-neutral-500">
+                      {stat.label}
+                    </div>
+                  </div>
                 ))}
               </div>
-            </div>
-          )}
+            )}
+          </div>
         </div>
-      </div>
+      </Reveal>
     </section>
   );
 }

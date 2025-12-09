@@ -2,8 +2,8 @@
   "slug": "security-system-solution",
   "clientName": "Security System Solution",
   "contactName": "Cameron Peavy",
-  "createdAt": "2025-01-15T00:00:00.000Z",
-  "expiresAt": "2025-02-14T00:00:00.000Z",
+  "createdAt": "2025-12-08T00:00:00.000Z",
+  "expiresAt": "2026-01-07T00:00:00.000Z",
   "dealId": 12345,
 
   "headline": "Inbound Engine Proposal",
@@ -227,6 +227,37 @@
     "founderName": "Daniel Sandoval",
     "founderTitle": "Founder & Lead Strategist"
   },
+
+  "testimonials": [
+    {
+      "id": "1",
+      "quote": "Daniel and his team transformed our lead generation. We went from struggling to find quality leads to having more qualified opportunities than we can handle.",
+      "name": "Michael Torres",
+      "company": "Commercial Security Pro",
+      "badge": "Security Systems"
+    },
+    {
+      "id": "2",
+      "quote": "The qualification process alone is worth the investment. No more wasting time on tire-kickers. Every lead they send is ready to buy.",
+      "name": "Sarah Chen",
+      "company": "Access Control Solutions",
+      "badge": "Access Control"
+    },
+    {
+      "id": "3",
+      "quote": "We tried three other agencies before Digital Assembly. The difference is night and day. Real results, real accountability.",
+      "name": "David Martinez",
+      "company": "SecureTech Systems",
+      "badge": "B2B Services"
+    },
+    {
+      "id": "4",
+      "quote": "The ROI has been incredible. We've grown 40% year over year since partnering with them.",
+      "name": "Jennifer Walsh",
+      "company": "Guardian Security",
+      "badge": "Security Services"
+    }
+  ],
 
   "faqs": [
     {

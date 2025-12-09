@@ -47,29 +47,26 @@ export function ROICalculatorSection({ defaults }: ROICalculatorSectionProps) {
   const results = calculate();
 
   return (
-    <section className="py-20 md:py-32 bg-white">
-      <div className="max-w-shell mx-auto px-4 md:px-8">
-        <Reveal className="mb-8 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
-          <div className="border-l-4 border-signal pl-6">
-            <h2 className="mb-2 font-display text-3xl md:text-4xl font-bold">
-              Your projected ROI
-            </h2>
-            <p className="font-mono text-sm text-neutral-500">
-              Calculate the LTV impact of your sales-ready opportunities.
-            </p>
-          </div>
-          <div className="hidden items-center gap-2 border border-black px-3 py-1 font-mono text-[10px] uppercase md:flex">
-            <div className="h-2 w-2 animate-pulse bg-signal" />
-            Live Calculator
-          </div>
-        </Reveal>
+    <section className="mb-20 w-full max-w-7xl mx-auto px-6 md:mb-32">
+      <Reveal className="mb-8 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
+        <div className="border-l-2 border-signal pl-6">
+          <h2 className="mb-2 font-display text-4xl font-bold uppercase">
+            Your Projected ROI
+          </h2>
+          <p className="font-mono text-sm uppercase text-neutral-500">
+            Calculate the LTV impact of your sales-ready opportunities.
+          </p>
+        </div>
+        <div className="hidden items-center gap-2 border border-black px-3 py-1 font-mono text-[10px] uppercase md:flex">
+          <div className="h-2 w-2 animate-pulse bg-signal" />
+          Live Calculator
+        </div>
+      </Reveal>
 
-        <Reveal
-          delay={100}
-          className="grid grid-cols-1 gap-px border-2 border-black bg-black lg:grid-cols-12"
-        >
+      <Reveal className="border border-black bg-white">
+        <div className="grid lg:grid-cols-12">
           {/* LEFT COLUMN: INPUTS */}
-          <div className="relative flex h-full flex-col justify-between bg-white p-8 md:p-12 lg:col-span-5">
+          <div className="relative flex h-full flex-col justify-between border-b border-black bg-white p-8 md:p-12 lg:col-span-5 lg:border-b-0 lg:border-r">
             <div className="absolute left-0 top-0 bg-black px-3 py-1 font-mono text-[10px] uppercase text-white">
               Input Data
             </div>
@@ -207,7 +204,6 @@ export function ROICalculatorSection({ defaults }: ROICalculatorSectionProps) {
 
               {/* Yearly Value Generated */}
               <div className="relative flex flex-col justify-between overflow-hidden border-t border-black bg-white p-8 md:col-span-2">
-                <div className="pointer-events-none absolute inset-0 bg-grid-spec-light opacity-5" />
                 <div className="relative z-10 flex flex-col items-end justify-between md:flex-row">
                   <div>
                     <span className="bg-black px-2 py-1 font-mono text-[10px] uppercase text-white">
@@ -284,23 +280,29 @@ export function ROICalculatorSection({ defaults }: ROICalculatorSectionProps) {
               </div>
             </div>
           </div>
-        </Reveal>
+        </div>
 
-        <Reveal delay={200}>
-          <p className="mt-8 text-center text-sm text-neutral-500">
-            To explore more ROI projections please use the{" "}
-            <a
-              href="https://digitalassembly.agency/#roi"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-signal underline hover:no-underline"
-            >
-              calculator on our homepage
-            </a>
-            .
-          </p>
-        </Reveal>
-      </div>
+        {/* Footer Bar */}
+        <div className="flex items-center justify-between border-t border-black bg-black px-4 py-2 font-mono text-[10px] uppercase text-white">
+          <div>Calculator Status</div>
+          <div className="text-signal">Active</div>
+        </div>
+      </Reveal>
+
+      <Reveal delay={200}>
+        <p className="mt-8 text-center font-mono text-sm text-neutral-500">
+          To explore more ROI projections please use the{" "}
+          <a
+            href="https://digitalassembly.agency/#roi"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-signal underline hover:no-underline"
+          >
+            calculator on our homepage
+          </a>
+          .
+        </p>
+      </Reveal>
     </section>
   );
 }

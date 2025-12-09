@@ -1,26 +1,23 @@
 import Link from "next/link";
 
-interface ProposalHeaderProps {
-  contactName: string;
-}
-
-export function ProposalHeader({ contactName }: ProposalHeaderProps) {
+export function ProposalHeader() {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white border-b-2 border-black">
-      <div className="max-w-shell mx-auto px-4 md:px-8 py-4 flex items-center justify-between">
+    <header className="fixed left-0 right-0 top-0 z-50 border-b border-black bg-white">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <Link
           href="https://digitalassembly.agency"
-          className="flex items-center gap-3"
+          className="flex items-center gap-3 transition-opacity hover:opacity-70"
         >
-          <div className="w-4 h-4 bg-signal" />
-          <span className="font-mono text-xs uppercase tracking-widest">
+          <div className="h-4 w-4 bg-signal" />
+          <span className="font-mono text-[10px] uppercase tracking-tight">
             Digital Assembly
           </span>
         </Link>
 
-        <span className="font-mono text-xs text-neutral-500">
-          Prepared for: {contactName}
-        </span>
+        <div className="hidden items-center gap-2 border border-black px-3 py-1 font-mono text-[10px] uppercase md:flex">
+          <div className="h-2 w-2 bg-signal" />
+          Proposal
+        </div>
       </div>
     </header>
   );
