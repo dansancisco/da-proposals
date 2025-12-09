@@ -116,26 +116,26 @@
   "caseStudies": [
     {
       "company": "ProStrip Sandblasting",
-      "sector": "Sandblasting",
+      "sector": "Industrial",
       "metric": "4X",
-      "description": "Increase in mobile sandblasting jobs through Google Ads",
+      "description": "Increase in organic leads",
       "image": "/images/case-studies/prostrip.jpg",
       "link": "https://digitalassembly.agency/case-studies/prostrip-sandblasting"
     },
     {
-      "company": "Reconditioning Pros",
-      "sector": "Industrial Refinishing",
-      "metric": "4X",
-      "description": "ROI on industrial refinishing leads",
-      "image": "/images/case-studies/reconditioning-pros.jpg",
-      "link": "https://digitalassembly.agency/case-studies/reconditioning-pros"
+      "company": "WASP Blasting",
+      "sector": "Industrial",
+      "metric": "2X",
+      "description": "Increase in commercial blasting leads",
+      "image": "/images/case-studies/wasp-blasting.jpg",
+      "link": "https://digitalassembly.agency/case-studies/wasp-blasting"
     },
     {
-      "company": "Lotus",
-      "sector": "Commercial Cleaning",
+      "company": "Lotus Commercial",
+      "sector": "B2B",
       "metric": "3X",
-      "description": "Increase in commercial service leads",
-      "image": "/images/case-studies/lotus.jpg",
+      "description": "Increase in commercial kitchen cleaning leads",
+      "image": "/images/case-studies/lotus.webp",
       "link": "https://digitalassembly.agency/case-studies/lotus"
     }
   ],
