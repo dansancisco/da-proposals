@@ -70,9 +70,9 @@ export function PasswordGate({ children, proposal }: PasswordGateProps) {
         className="bg-white p-8 md:p-12 border-4 border-black w-full max-w-md"
       >
         <div className="flex items-center gap-3 mb-6">
-          <div className="w-4 h-4 bg-signal" />
-          <span className="font-mono text-xs uppercase tracking-widest">
-            Digital Assembly
+          <div className="h-3 w-3 bg-signal" />
+          <span className="font-display text-base font-bold lowercase tracking-tighter">
+            digital assembly
           </span>
         </div>
 
