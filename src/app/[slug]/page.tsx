@@ -22,6 +22,7 @@ import { ScopeSection } from "@/components/sections/ScopeSection";
 import { AboutSection } from "@/components/sections/AboutSection";
 import { FAQSection } from "@/components/sections/FAQSection";
 import { TestimonialsSection } from "@/components/sections/TestimonialsSection";
+import { AcceptSection } from "@/components/sections/AcceptSection";
 
 import type { Proposal } from "@/types/proposal";
 
@@ -162,6 +163,15 @@ export default async function ProposalPage({
             />
 
             {proposal.faqs.length > 0 && <FAQSection faqs={proposal.faqs} />}
+
+            {/* Accept Section - only shown when enabled after negotiation */}
+            {proposal.acceptSection?.enabled && (
+              <AcceptSection
+                slug={proposal.slug}
+                xeroInvoiceUrl={proposal.acceptSection.xeroInvoiceUrl}
+                termsText={proposal.acceptSection.termsText}
+              />
+            )}
           </div>
         </main>
 

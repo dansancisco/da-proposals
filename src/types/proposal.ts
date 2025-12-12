@@ -117,4 +117,40 @@ export interface Proposal {
     company: string;
     badge?: string;
   }[];
+
+  // Accept Section (added after negotiation is complete)
+  acceptSection?: {
+    enabled: boolean;
+    xeroInvoiceUrl: string;
+    invoiceReference: string; // Format: "DA-[slug]" for webhook matching
+    termsText?: string; // Custom terms text, uses default if omitted
+  };
+
+  // Proposal status
+  status?: "draft" | "sent" | "pending_payment" | "accepted";
+}
+
+// Acceptance record stored in /src/data/acceptances/[slug].json
+export interface ProposalAcceptance {
+  slug: string;
+  proposalVersion: string; // Timestamp of proposal at acceptance time
+  status: "pending" | "accepted";
+
+  // Captured when client clicks accept
+  acceptedAt: string; // ISO timestamp
+  clientIp: string;
+  userAgent: string;
+  browserInfo: {
+    language: string;
+    platform: string;
+    screenResolution: string;
+  };
+
+  // Set when payment confirmed via webhook
+  paymentConfirmedAt?: string;
+  xeroPaymentId?: string;
+
+  // Set when finalized
+  pdfUrl?: string; // Google Drive link
+  finalizedAt?: string;
 }
