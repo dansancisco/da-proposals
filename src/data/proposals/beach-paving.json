@@ -184,7 +184,7 @@
   "stipulations": [
     "Ad spend maintained at $3,500/month minimum",
     "Missed calls, form submissions, and chats responded to within 30 minutes",
-    "Each opportunity followed up at least 3 times if no response",
+    "Follow up on all opportunities and sent estimates until you receive a decision",
     "Project outcomes tracked in shared system",
     "60-day minimum commitment to allow optimization"
   ],
@@ -270,7 +270,7 @@
     },
     {
       "question": "What do you need from us?",
-      "answer": "Respond to missed calls, form submissions, and chats within 30 minutes. Follow up at least 3 times if you don't reach them initially. Track outcomes so we know which opportunities turned into jobs."
+      "answer": "Respond to missed calls, form submissions, and chats within 30 minutes. Follow up on all opportunities and sent estimates until you get a yes or no. Track outcomes so we know which opportunities turned into jobs."
     },
     {
       "question": "Can we pause or cancel?",
