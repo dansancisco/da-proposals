@@ -86,6 +86,7 @@ export interface Proposal {
 
   // Guarantee
   guarantee: string;
+  guaranteeNote?: string;
   stipulations: string[];
 
   // Scope

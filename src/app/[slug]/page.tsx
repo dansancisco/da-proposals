@@ -143,6 +143,7 @@ export default async function ProposalPage({
 
             <GuaranteeSection
               guarantee={proposal.guarantee}
+              guaranteeNote={proposal.guaranteeNote}
               stipulations={proposal.stipulations}
             />
 

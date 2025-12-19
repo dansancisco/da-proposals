@@ -4,11 +4,13 @@ import { Reveal } from "@/components/common/Reveal";
 
 interface GuaranteeSectionProps {
   guarantee: string;
+  guaranteeNote?: string;
   stipulations: string[];
 }
 
 export function GuaranteeSection({
   guarantee,
+  guaranteeNote,
   stipulations,
 }: GuaranteeSectionProps) {
   return (
@@ -50,9 +52,15 @@ export function GuaranteeSection({
 
           {/* Content Column */}
           <div className="p-8 md:col-span-9 md:p-12">
-            <h3 className="mb-6 font-display text-2xl font-bold uppercase md:text-3xl">
+            <h3 className="mb-4 font-display text-2xl font-bold uppercase md:text-3xl">
               {guarantee}
             </h3>
+
+            {guaranteeNote && (
+              <p className="mb-6 border-l-2 border-signal bg-neutral-50 py-3 pl-4 font-mono text-sm text-neutral-600">
+                {guaranteeNote}
+              </p>
+            )}
 
             {stipulations.length > 0 && (
               <div className="border-t border-black pt-6">
