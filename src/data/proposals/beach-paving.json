@@ -138,12 +138,22 @@
     {
       "phase": "Week 2",
       "title": "Launch",
-      "description": "Campaign launch, daily monitoring, initial optimization"
+      "description": "Campaign goes live, daily monitoring begins, initial data collection"
+    },
+    {
+      "phase": "Week 3-4",
+      "title": "First Leads",
+      "description": "Leads start coming in, call quality review, early optimization based on data"
+    },
+    {
+      "phase": "Week 5-8",
+      "title": "Optimize & Scale",
+      "description": "Refine targeting, scale what's working, kill underperforming keywords"
     },
     {
       "phase": "Month 3+",
       "title": "Expand & Refine",
-      "description": "Scale what's working, test new keywords, continuous improvement"
+      "description": "Add new campaigns, test new keywords, continuous improvement"
     }
   ],
 
@@ -156,10 +166,15 @@
 
   "phases": [
     {
-      "name": "Investment (Monthly)",
+      "name": "Campaign Management",
       "items": [
-        { "label": "Campaign Management", "amount": 1500 },
-        { "label": "Recommended Ad Spend", "amount": 3500 }
+        { "label": "Monthly fee", "amount": 1500 }
+      ]
+    },
+    {
+      "name": "Recommended Ad Spend",
+      "items": [
+        { "label": "Monthly budget", "amount": 3500 }
       ]
     }
   ],
