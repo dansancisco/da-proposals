@@ -1,6 +1,6 @@
 {
   "slug": "beach-paving",
-  "clientName": "Beach Paving",
+  "clientName": "Beach Paving Inc.",
   "contactName": "Joanna Saragosa",
   "createdAt": "2025-12-19T00:00:00.000Z",
   "expiresAt": "2026-01-18T00:00:00.000Z",
@@ -22,19 +22,11 @@
   "campaigns": [
     {
       "name": "Google Search Ads",
-      "description": "Target high-intent searches for commercial paving services—parking lot repair, asphalt overlay, sealcoating, striping, ADA compliance. Capture property managers, facility operators, and general contractors with active projects."
-    },
-    {
-      "name": "Bing Ads",
-      "description": "Extend reach to Microsoft's search network at often-lower costs. Same targeting, additional volume from a different audience."
+      "description": "Target high-intent searches for paving, asphalt, sealcoating, striping, ADA compliance, and concrete services. Capture people actively looking for your services with immediate project needs."
     }
   ],
 
   "qualificationCriteria": [
-    {
-      "label": "Commercial Property",
-      "description": "Parking lots, HOAs, industrial facilities, apartment complexes, retail centers"
-    },
     {
       "label": "Decision Maker",
       "description": "Property manager, facility manager, general contractor, or business owner with authority"
@@ -55,12 +47,11 @@
 
   "deliverables": [
     "Google Ads account setup and campaign structure",
-    "Commercial paving keyword research and targeting",
+    "Keyword research targeting paving, asphalt, sealcoating, striping, ADA, and concrete services",
     "Ad copywriting with multiple variants (A/B tested)",
-    "Landing page optimization for conversions",
+    "Custom landing page creation for conversions",
     "Call tracking and recording setup",
     "Conversion tracking and analytics",
-    "Bing Ads setup and management",
     "Lead management dashboard access",
     "Monthly performance reporting",
     "Ongoing campaign optimization"
@@ -70,7 +61,7 @@
     {
       "icon": "phone",
       "title": "Call Tracking & Recording",
-      "description": "Know which keywords bring in your best commercial jobs"
+      "description": "Know which keywords bring in your best jobs"
     },
     {
       "icon": "dashboard",
@@ -90,12 +81,12 @@
     {
       "icon": "report",
       "title": "Transparent Reporting",
-      "description": "Clear breakdown of spend, leads, cost per lead, and ROI"
+      "description": "Clear breakdown of spend, opportunities, cost per opportunity, and ROI"
     },
     {
-      "icon": "content",
-      "title": "Bing Ads Included",
-      "description": "Extended reach at often-lower costs, no extra fee"
+      "icon": "page",
+      "title": "Custom Landing Page",
+      "description": "Dedicated page built to convert searchers into callers"
     }
   ],
 
@@ -140,24 +131,19 @@
 
   "roadmap": [
     {
-      "phase": "Week 1-2",
+      "phase": "Week 1",
       "title": "Discovery & Setup",
-      "description": "Account setup, keyword research, tracking implementation, campaign build"
+      "description": "Account setup, keyword research, tracking implementation, landing page build"
     },
     {
-      "phase": "Week 3-4",
-      "title": "Launch & Monitor",
+      "phase": "Week 2",
+      "title": "Launch",
       "description": "Campaign launch, daily monitoring, initial optimization"
-    },
-    {
-      "phase": "Week 5-8",
-      "title": "Optimize & Scale",
-      "description": "Refine targeting, scale what's working, kill what isn't"
     },
     {
       "phase": "Month 3+",
       "title": "Expand & Refine",
-      "description": "Add new campaigns, test new keywords, continuous improvement"
+      "description": "Scale what's working, test new keywords, continuous improvement"
     }
   ],
 
@@ -170,7 +156,7 @@
 
   "phases": [
     {
-      "name": "Monthly Investment",
+      "name": "Investment (Monthly)",
       "items": [
         { "label": "Campaign Management", "amount": 1500 },
         { "label": "Recommended Ad Spend", "amount": 3500 }
@@ -178,17 +164,18 @@
     }
   ],
 
-  "guarantee": "We guarantee 40 qualified commercial paving opportunities in your first 60 days (20 per month). If we don't deliver, we'll refund 100% of our management fees for that period. At your close rate, that's 4 booked jobs—and you only need one at $10,000+ to cover your entire investment.",
+  "guarantee": "We guarantee 40 qualified sales-ready opportunities in your first 90 days. If we don't deliver, we'll refund 100% of our management fees.",
+  "guaranteeNote": "At your close rate, that's 4 booked jobs—and you only need one at $10,000+ to cover your entire investment.",
   "stipulations": [
     "Ad spend maintained at $3,500/month minimum",
-    "Leads followed up within 4 hours",
+    "Opportunities followed up within 5 minutes",
     "Project outcomes tracked in shared system",
-    "60-day minimum commitment to allow optimization"
+    "90-day minimum commitment to allow optimization"
   ],
 
   "scopeIncludes": [
     "Google Ads search campaign setup and management",
-    "Bing Ads setup and management",
+    "Custom landing page creation",
     "Keyword research and ongoing expansion",
     "Ad copywriting and A/B testing",
     "Call tracking and recording",
@@ -254,28 +241,28 @@
 
   "faqs": [
     {
-      "question": "How quickly will I start seeing leads?",
+      "question": "How quickly will I start seeing opportunities?",
       "answer": "Most clients see their first calls within 7-14 days of campaign launch. The first month is about learning which keywords convert best; results compound from there."
     },
     {
-      "question": "What makes these leads qualified?",
-      "answer": "Every lead comes from someone actively searching for paving services. They have a need right now. We also record calls so you can hear the context before calling back."
+      "question": "What makes these sales-ready opportunities?",
+      "answer": "Every opportunity comes from someone actively searching for paving services—they have a need right now. We record all calls so you can see the quality and quantity coming in."
     },
     {
       "question": "What if the campaigns don't work?",
-      "answer": "If we don't deliver 40 qualified opportunities in 60 days while you meet the agreed conditions, we refund 100% of our management fees. We only win when you win."
+      "answer": "If we don't deliver 40 qualified opportunities in 90 days while you meet the agreed conditions, we refund 100% of our management fees. We only win when you win."
     },
     {
       "question": "What do you need from us?",
-      "answer": "Fast follow-up on leads (within 4 hours). Tracking outcomes so we know which leads turned into jobs. Monthly check-ins to review performance."
+      "answer": "Fast follow-up on opportunities—within 5 minutes for any missed calls. Responding within 5-10 minutes makes you 7x more likely to win that customer. Track outcomes so we know which opportunities turned into jobs."
     },
     {
       "question": "Can we pause or cancel?",
-      "answer": "After the initial 60-day period, it's month-to-month. No long contracts. You stay because the phone keeps ringing with qualified opportunities."
+      "answer": "After the initial 90-day period, it's month-to-month. No long contracts. You stay because the phone keeps ringing with qualified opportunities."
     },
     {
       "question": "What's the minimum commitment?",
-      "answer": "60 days at $5,000/month total ($1,500 management + $3,500 ad spend). This gives us enough data to optimize and prove the ROI."
+      "answer": "90 days at $5,000/month total ($1,500 management + $3,500 ad spend). This gives us enough data to optimize and prove the ROI."
     }
   ]
 }
