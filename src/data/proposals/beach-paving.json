@@ -133,27 +133,27 @@
     {
       "phase": "Week 1",
       "title": "Discovery & Setup",
-      "description": "Account setup, keyword research, tracking implementation, landing page build"
+      "description": "Account setup, keyword research, competitor analysis, tracking implementation, landing page build"
     },
     {
       "phase": "Week 2",
-      "title": "Launch",
-      "description": "Campaign goes live, daily monitoring begins, initial data collection"
+      "title": "Launch & First Leads",
+      "description": "Campaign goes live, first calls start coming in, daily monitoring and quality review"
     },
     {
       "phase": "Week 3-4",
-      "title": "First Leads",
-      "description": "Leads start coming in, call quality review, early optimization based on data"
+      "title": "Data Collection & Early Optimization",
+      "description": "Analyze call quality, identify top-performing keywords, refine ad copy based on real data"
     },
     {
       "phase": "Week 5-8",
-      "title": "Optimize & Scale",
-      "description": "Refine targeting, scale what's working, kill underperforming keywords"
+      "title": "Scale & Optimize",
+      "description": "Double down on winning keywords, cut underperformers, expand to new service areas, maximize ROI"
     },
     {
       "phase": "Month 3+",
-      "title": "Expand & Refine",
-      "description": "Add new campaigns, test new keywords, continuous improvement"
+      "title": "Expand & Continuous Improvement",
+      "description": "Test new campaigns, explore additional services, ongoing refinement based on closed job data"
     }
   ],
 
