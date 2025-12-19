@@ -13,12 +13,12 @@ export function QualityControlSection({
   return (
     <section className="mb-20 w-full max-w-7xl mx-auto px-6 md:mb-32">
       <Reveal className="mb-8 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
-        <div className="max-w-2xl">
+        <div className="max-w-2xl border-l-2 border-signal pl-6">
           <h2 className="mb-2 font-display text-4xl font-bold uppercase">
-            Quality Control
+            What is a Sales-Ready Opportunity?
           </h2>
           <p className="font-mono text-sm uppercase text-neutral-500">
-            How we qualify every opportunity.
+            Every opportunity must pass these gates.
           </p>
         </div>
         <div className="hidden items-center gap-2 border border-black px-3 py-1 font-mono text-[10px] uppercase md:flex">
