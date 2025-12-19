@@ -23,6 +23,11 @@ function formatCurrency(num: number): string {
 }
 
 export function InvestmentSection({ phases }: InvestmentSectionProps) {
+  // Calculate grand total across all phases
+  const grandTotal = phases.reduce(
+    (total, phase) => total + phase.items.reduce((s, item) => s + item.amount, 0),
+    0
+  );
 
   return (
     <section id="investment" className="w-full bg-black py-20 md:py-32">
@@ -38,11 +43,9 @@ export function InvestmentSection({ phases }: InvestmentSectionProps) {
           </div>
         </Reveal>
 
-        <div className="grid gap-px border border-white/20 bg-white/20 md:grid-cols-2">
-          {phases.map((phase, phaseIndex) => {
-            const phaseTotal = phase.items.reduce((s, item) => s + item.amount, 0);
-
-            return (
+        <div className="border border-white/20">
+          <div className="grid gap-px bg-white/20 md:grid-cols-2">
+            {phases.map((phase, phaseIndex) => (
               <Reveal key={phase.name} delay={phaseIndex * 100}>
                 <div className="flex h-full flex-col bg-black">
                   <div className="border-b border-white/20 bg-white/10 px-6 py-4">
@@ -66,21 +69,24 @@ export function InvestmentSection({ phases }: InvestmentSectionProps) {
                       </div>
                     ))}
                   </div>
-
-                  <div className="border-t border-white/20 bg-signal px-6 py-4">
-                    <div className="flex items-center justify-between">
-                      <span className="font-mono text-[10px] uppercase tracking-widest text-white/80">
-                        Subtotal
-                      </span>
-                      <span className="font-display text-xl font-bold text-white">
-                        {formatCurrency(phaseTotal)}
-                      </span>
-                    </div>
-                  </div>
                 </div>
               </Reveal>
-            );
-          })}
+            ))}
+          </div>
+
+          {/* Combined Subtotal Bar */}
+          <Reveal>
+            <div className="bg-signal px-6 py-4">
+              <div className="flex items-center justify-between">
+                <span className="font-mono text-[10px] uppercase tracking-widest text-white/80">
+                  Total Monthly Investment
+                </span>
+                <span className="font-display text-xl font-bold text-white">
+                  {formatCurrency(grandTotal)}
+                </span>
+              </div>
+            </div>
+          </Reveal>
         </div>
       </div>
     </section>
