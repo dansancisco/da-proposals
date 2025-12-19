@@ -179,14 +179,14 @@
     }
   ],
 
-  "guarantee": "We guarantee 40 qualified sales-ready opportunities in your first 60 days. If we don't deliver, we'll refund 100% of our management fees.",
-  "guaranteeNote": "At your close rate, that's 4 booked jobs—and you only need one at $10,000+ to cover your entire investment.",
+  "guarantee": "We guarantee 40 qualified sales-ready opportunities in your first 90 days. If we don't deliver, we'll refund 100% of our management fees.",
+  "guaranteeNote": "At your close rate, that's 4 booked jobs—and you only need one at $15,000+ to cover your entire 90-day investment.",
   "stipulations": [
     "Ad spend maintained at $3,500/month minimum",
     "Missed calls, form submissions, and chats responded to within 30 minutes",
     "Follow up on all opportunities and sent estimates until you receive a decision",
     "Project outcomes tracked in shared system",
-    "60-day minimum commitment to allow optimization"
+    "90-day minimum commitment to allow optimization"
   ],
 
   "scopeIncludes": [
@@ -266,7 +266,7 @@
     },
     {
       "question": "What if the campaigns don't work?",
-      "answer": "If we don't deliver 40 qualified opportunities in 60 days while you meet the agreed conditions, we refund 100% of our management fees. We only win when you win."
+      "answer": "If we don't deliver 40 qualified opportunities in 90 days while you meet the agreed conditions, we refund 100% of our management fees. We only win when you win."
     },
     {
       "question": "What do you need from us?",
@@ -274,11 +274,11 @@
     },
     {
       "question": "Can we pause or cancel?",
-      "answer": "After the initial 60-day period, it's month-to-month. No long contracts. You stay because the phone keeps ringing with qualified opportunities."
+      "answer": "After the initial 90-day period, it's month-to-month. No long contracts. You stay because the phone keeps ringing with qualified opportunities."
     },
     {
       "question": "What's the minimum commitment?",
-      "answer": "60 days at $5,000/month total ($1,500 management + $3,500 ad spend). This gives us enough data to optimize and prove the ROI."
+      "answer": "90 days at $5,000/month total ($1,500 management + $3,500 ad spend). This gives us enough data to optimize and prove the ROI."
     }
   ]
 }
