@@ -1,0 +1,281 @@
+{
+  "slug": "beach-paving",
+  "clientName": "Beach Paving",
+  "contactName": "Joanna Saragosa",
+  "createdAt": "2025-12-19T00:00:00.000Z",
+  "expiresAt": "2026-01-18T00:00:00.000Z",
+  "dealId": 1021,
+
+  "headline": "Commercial Paving Lead Generation System",
+  "subheadline": "A done-for-you inbound engine to keep your crews busy in January, February, and beyond.",
+
+  "situationPoints": [
+    "Built a successful business through referrals and existing relationships, but growth depends on your network—not predictable demand",
+    "Losing proposals to competitors who already have relationships with property managers",
+    "Slow periods create crew downtime and inconsistent revenue",
+    "Want to be aggressive in January and February to fill the pipeline",
+    "Have capacity to take on more work but no consistent lead source outside word-of-mouth"
+  ],
+
+  "solutionOverview": "We're launching targeted advertising campaigns to capture people actively searching for paving services across Orange County and surrounding areas. Every search for 'parking lot repair,' 'asphalt paving,' or 'commercial paving company' represents someone with a need right now—and we'll make sure Beach Paving shows up first. We track and record every call so you know exactly what's working and can maximize every opportunity.",
+
+  "campaigns": [
+    {
+      "name": "Google Search Ads",
+      "description": "Target high-intent searches for commercial paving services—parking lot repair, asphalt overlay, sealcoating, striping, ADA compliance. Capture property managers, facility operators, and general contractors with active projects."
+    },
+    {
+      "name": "Bing Ads",
+      "description": "Extend reach to Microsoft's search network at often-lower costs. Same targeting, additional volume from a different audience."
+    }
+  ],
+
+  "qualificationCriteria": [
+    {
+      "label": "Commercial Property",
+      "description": "Parking lots, HOAs, industrial facilities, apartment complexes, retail centers"
+    },
+    {
+      "label": "Decision Maker",
+      "description": "Property manager, facility manager, general contractor, or business owner with authority"
+    },
+    {
+      "label": "Active Project",
+      "description": "Looking to start within 30-90 days, not just researching"
+    },
+    {
+      "label": "Service Area",
+      "description": "Located within Orange County, LA, or surrounding service territory"
+    },
+    {
+      "label": "Budget Aligned",
+      "description": "Project scope that fits your capabilities—from patching to full replacement"
+    }
+  ],
+
+  "deliverables": [
+    "Google Ads account setup and campaign structure",
+    "Commercial paving keyword research and targeting",
+    "Ad copywriting with multiple variants (A/B tested)",
+    "Landing page optimization for conversions",
+    "Call tracking and recording setup",
+    "Conversion tracking and analytics",
+    "Bing Ads setup and management",
+    "Lead management dashboard access",
+    "Monthly performance reporting",
+    "Ongoing campaign optimization"
+  ],
+
+  "includedFeatures": [
+    {
+      "icon": "phone",
+      "title": "Call Tracking & Recording",
+      "description": "Know which keywords bring in your best commercial jobs"
+    },
+    {
+      "icon": "dashboard",
+      "title": "Real-Time Lead Dashboard",
+      "description": "See every inquiry as it comes in, with full context"
+    },
+    {
+      "icon": "tracking",
+      "title": "Keyword-Level Attribution",
+      "description": "Track which searches generate actual booked jobs"
+    },
+    {
+      "icon": "calendar",
+      "title": "Monthly Strategy Calls",
+      "description": "Review what's working, adjust approach, plan next steps"
+    },
+    {
+      "icon": "report",
+      "title": "Transparent Reporting",
+      "description": "Clear breakdown of spend, leads, cost per lead, and ROI"
+    },
+    {
+      "icon": "content",
+      "title": "Bing Ads Included",
+      "description": "Extended reach at often-lower costs, no extra fee"
+    }
+  ],
+
+  "leadInsights": {
+    "title": "What You'll See For Each Lead",
+    "points": [
+      "Business name and contact information",
+      "Type of project (parking lot, overlay, sealcoating, striping, ADA, concrete)",
+      "Property type and approximate scope",
+      "Timeline and urgency level",
+      "Call recording for context before you call back",
+      "Lead score based on qualification criteria"
+    ]
+  },
+
+  "caseStudies": [
+    {
+      "company": "ProStrip Sandblasting",
+      "sector": "Industrial",
+      "metric": "4X",
+      "description": "Increase in qualified leads",
+      "image": "/images/case-studies/prostrip.jpg",
+      "link": "https://digitalassembly.agency/case-studies/prostrip-sandblasting"
+    },
+    {
+      "company": "WASP Blasting",
+      "sector": "Industrial",
+      "metric": "2X",
+      "description": "Increase in commercial blasting leads",
+      "image": "/images/case-studies/wasp-blasting.jpg",
+      "link": "https://digitalassembly.agency/case-studies/wasp-blasting"
+    },
+    {
+      "company": "Lotus Commercial",
+      "sector": "B2B",
+      "metric": "3X",
+      "description": "Increase in commercial cleaning leads",
+      "image": "/images/case-studies/lotus.webp",
+      "link": "https://digitalassembly.agency/case-studies/lotus"
+    }
+  ],
+
+  "roadmap": [
+    {
+      "phase": "Week 1-2",
+      "title": "Discovery & Setup",
+      "description": "Account setup, keyword research, tracking implementation, campaign build"
+    },
+    {
+      "phase": "Week 3-4",
+      "title": "Launch & Monitor",
+      "description": "Campaign launch, daily monitoring, initial optimization"
+    },
+    {
+      "phase": "Week 5-8",
+      "title": "Optimize & Scale",
+      "description": "Refine targeting, scale what's working, kill what isn't"
+    },
+    {
+      "phase": "Month 3+",
+      "title": "Expand & Refine",
+      "description": "Add new campaigns, test new keywords, continuous improvement"
+    }
+  ],
+
+  "roiDefaults": {
+    "opportunities": 20,
+    "closeRate": 10,
+    "ltv": 10000,
+    "investment": 5000
+  },
+
+  "phases": [
+    {
+      "name": "Monthly Investment",
+      "items": [
+        { "label": "Campaign Management", "amount": 1500 },
+        { "label": "Recommended Ad Spend", "amount": 3500 }
+      ]
+    }
+  ],
+
+  "guarantee": "We guarantee 40 qualified commercial paving opportunities in your first 60 days (20 per month). If we don't deliver, we'll refund 100% of our management fees for that period. At your close rate, that's 4 booked jobs—and you only need one at $10,000+ to cover your entire investment.",
+  "stipulations": [
+    "Ad spend maintained at $3,500/month minimum",
+    "Leads followed up within 4 hours",
+    "Project outcomes tracked in shared system",
+    "60-day minimum commitment to allow optimization"
+  ],
+
+  "scopeIncludes": [
+    "Google Ads search campaign setup and management",
+    "Bing Ads setup and management",
+    "Keyword research and ongoing expansion",
+    "Ad copywriting and A/B testing",
+    "Call tracking and recording",
+    "Lead dashboard access",
+    "Monthly performance reporting",
+    "Ongoing campaign optimization"
+  ],
+
+  "scopeExcludes": [
+    "Social media advertising (Facebook, Instagram)",
+    "CRM setup or sales training",
+    "Website redesign or development",
+    "Video production or photography",
+    "Print or offline advertising"
+  ],
+
+  "about": {
+    "intro": "Digital Assembly builds revenue growth systems for service businesses. Since 2016, we've helped 100+ clients across the US, Canada, UK, Australia, and New Zealand generate predictable pipelines through strategic paid advertising and lead qualification. We're not a typical agency—we're partners invested in your growth.",
+    "values": [
+      {
+        "title": "Results Over Activity",
+        "description": "We measure success by qualified opportunities and closed deals, not clicks or impressions."
+      },
+      {
+        "title": "Radical Transparency",
+        "description": "You'll always know exactly where your money is going and what it's producing."
+      }
+    ],
+    "founderName": "Daniel Sandoval",
+    "founderTitle": "Founder & Lead Strategist"
+  },
+
+  "testimonials": [
+    {
+      "id": "1",
+      "quote": "I have no concerns recommending Digital Assembly",
+      "name": "Tom McCarthy",
+      "company": "HussetHR",
+      "badge": "Google Verified"
+    },
+    {
+      "id": "2",
+      "quote": "Dan's producing more than 4x my cost to hire his firm",
+      "name": "Robert Dorsey",
+      "company": "Reconditioning Pros",
+      "badge": "Google Verified"
+    },
+    {
+      "id": "3",
+      "quote": "Honest and proactive, a very rare attribute in the industry",
+      "name": "Irene Denton",
+      "company": "Lightning Locksmiths",
+      "badge": "Google Verified"
+    },
+    {
+      "id": "4",
+      "quote": "Enhanced our digital footprint in a way that we couldn't have",
+      "name": "Rupert Harvey",
+      "company": "Smaart Recruitment",
+      "badge": "Google Verified"
+    }
+  ],
+
+  "faqs": [
+    {
+      "question": "How quickly will I start seeing leads?",
+      "answer": "Most clients see their first calls within 7-14 days of campaign launch. The first month is about learning which keywords convert best; results compound from there."
+    },
+    {
+      "question": "What makes these leads qualified?",
+      "answer": "Every lead comes from someone actively searching for paving services. They have a need right now. We also record calls so you can hear the context before calling back."
+    },
+    {
+      "question": "What if the campaigns don't work?",
+      "answer": "If we don't deliver 40 qualified opportunities in 60 days while you meet the agreed conditions, we refund 100% of our management fees. We only win when you win."
+    },
+    {
+      "question": "What do you need from us?",
+      "answer": "Fast follow-up on leads (within 4 hours). Tracking outcomes so we know which leads turned into jobs. Monthly check-ins to review performance."
+    },
+    {
+      "question": "Can we pause or cancel?",
+      "answer": "After the initial 60-day period, it's month-to-month. No long contracts. You stay because the phone keeps ringing with qualified opportunities."
+    },
+    {
+      "question": "What's the minimum commitment?",
+      "answer": "60 days at $5,000/month total ($1,500 management + $3,500 ad spend). This gives us enough data to optimize and prove the ROI."
+    }
+  ]
+}
