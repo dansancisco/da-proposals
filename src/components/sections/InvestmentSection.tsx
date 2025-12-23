@@ -23,11 +23,13 @@ function formatCurrency(num: number): string {
 }
 
 export function InvestmentSection({ phases }: InvestmentSectionProps) {
-  // Calculate grand total across all phases
-  const grandTotal = phases.reduce(
-    (total, phase) => total + phase.items.reduce((s, item) => s + item.amount, 0),
-    0
-  );
+  // Calculate monthly total (only phases with "Monthly" in the name)
+  const monthlyTotal = phases
+    .filter((phase) => phase.name.toLowerCase().includes("monthly"))
+    .reduce(
+      (total, phase) => total + phase.items.reduce((s, item) => s + item.amount, 0),
+      0
+    );
 
   return (
     <section id="investment" className="w-full bg-black py-20 md:py-32">
@@ -82,7 +84,7 @@ export function InvestmentSection({ phases }: InvestmentSectionProps) {
                   Total Monthly Investment
                 </span>
                 <span className="font-display text-xl font-bold text-white">
-                  {formatCurrency(grandTotal)}
+                  {formatCurrency(monthlyTotal)}
                 </span>
               </div>
             </div>
