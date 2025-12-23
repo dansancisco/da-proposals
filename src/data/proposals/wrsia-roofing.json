@@ -173,7 +173,7 @@
   ],
 
   "roiDefaults": {
-    "opportunities": 15,
+    "opportunities": 10,
     "closeRate": 25,
     "ltv": 15000,
     "investment": 4000
