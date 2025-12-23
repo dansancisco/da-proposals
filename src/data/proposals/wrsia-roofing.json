@@ -1,0 +1,293 @@
+{
+  "slug": "wrsia-roofing",
+  "clientName": "WRSIA",
+  "contactName": "Daniel Reis",
+  "createdAt": "2025-12-23T00:00:00.000Z",
+  "expiresAt": "2026-01-22T00:00:00.000Z",
+  "dealId": 1025,
+
+  "headline": "Inbound Engine Proposal",
+  "subheadline": "A proven system for generating qualified commercial roofing opportunities through strategic Google Ads and lead qualification.",
+
+  "situationPoints": [
+    "You've built a strong reputation in commercial roofing through proactive prospecting, warranty work, and word-of-mouth in Des Moines",
+    "Your team is constantly looking for opportunities—everyone has their antennas up—but you're ready for a steadier, more predictable flow of leads",
+    "You're moving away from waiting for storms, leaks, or emergencies to bring in work—you want to be proactive",
+    "Your approach is different: you're not chasing one-and-done reroofs. You build long-term relationships through leak calls, inspections, and maintenance programs",
+    "You're planning to grow—adding a service team and discussing a third production crew—but you need the pipeline to support that expansion"
+  ],
+
+  "solutionOverview": "We leverage Google Ads to put WRSIA in front of commercial property owners and facility managers at the exact moment they're searching for leak repairs, roof inspections, and commercial roofing services in the Des Moines area. Every inquiry is captured, qualified, and logged so you can focus on building the relationships that lead to maintenance contracts and full reroofs.",
+
+  "campaigns": [
+    {
+      "name": "Commercial Leak Repair Ads",
+      "description": "Capture businesses actively searching for emergency leak repairs—your foot-in-the-door to long-term maintenance relationships."
+    },
+    {
+      "name": "Roof Inspection & Assessment Ads",
+      "description": "Target facility managers and property owners looking for proactive roof assessments before problems become emergencies."
+    },
+    {
+      "name": "Commercial Roofing Services Ads",
+      "description": "Broad commercial roofing searches for businesses in Des Moines and the 90-mile service radius looking for TPO, PVC, and flat roof specialists."
+    }
+  ],
+
+  "qualificationCriteria": [
+    {
+      "label": "Commercial Property",
+      "description": "Business, industrial, or commercial facility—no residential"
+    },
+    {
+      "label": "Decision Maker",
+      "description": "Owner, facility manager, property manager, or authorized decision maker"
+    },
+    {
+      "label": "Project Timeline",
+      "description": "Looking to address roofing needs within 30-90 days"
+    },
+    {
+      "label": "Budget Authority",
+      "description": "Has budget allocated or can approve the investment"
+    },
+    {
+      "label": "Service Area",
+      "description": "Located within 90 miles of Des Moines, or surrounding states for larger projects ($50k+)"
+    }
+  ],
+
+  "deliverables": [
+    "Google Ads account setup and campaign build",
+    "Conversion-focused landing page design and development",
+    "Call tracking with full recording capabilities",
+    "Lead management system setup",
+    "Analytics and conversion tracking implementation",
+    "Ongoing campaign optimization (daily bid management, ad testing)",
+    "Monthly performance reporting with keyword-to-lead attribution"
+  ],
+
+  "includedFeatures": [
+    {
+      "icon": "page",
+      "title": "High-Converting Landing Pages",
+      "description": "Proven pages designed to turn commercial roofing searches into qualified leads"
+    },
+    {
+      "icon": "content",
+      "title": "Professional Ad Copy",
+      "description": "Messaging focused on your relationship-based approach and expertise"
+    },
+    {
+      "icon": "dashboard",
+      "title": "Real-Time Dashboard",
+      "description": "Track campaign performance and lead flow on any device"
+    },
+    {
+      "icon": "tracking",
+      "title": "Lead Tracking & Attribution",
+      "description": "Know exactly which keywords and ads generate your best opportunities"
+    },
+    {
+      "icon": "phone",
+      "title": "Inbound Call Recording",
+      "description": "Record every call for quality tracking and keyword optimization"
+    },
+    {
+      "icon": "calendar",
+      "title": "Monthly Strategy Calls",
+      "description": "Review performance and align on next steps"
+    },
+    {
+      "icon": "report",
+      "title": "Transparent Reporting",
+      "description": "Clear breakdown of what happened and what's next"
+    },
+    {
+      "icon": "roi",
+      "title": "ROI Tracking",
+      "description": "Attribute closed deals back to the campaigns that produced them"
+    }
+  ],
+
+  "leadInsights": {
+    "title": "What You'll See For Each Lead",
+    "points": [
+      "Business name and contact information",
+      "Property type and location",
+      "Specific roofing need (leak, inspection, full roof)",
+      "Timeline and urgency level",
+      "Call recording for full context before callback",
+      "Lead score based on qualification criteria"
+    ]
+  },
+
+  "caseStudies": [
+    {
+      "company": "Smaart Recruitment",
+      "sector": "Recruitment",
+      "metric": "3.8X",
+      "description": "Increase in call centre staffing opportunities",
+      "image": "/images/case-studies/smaart.webp",
+      "link": "https://digitalassembly.agency/case-studies/smaart-recruitment"
+    },
+    {
+      "company": "ProStrip Sandblasting",
+      "sector": "Sandblasting",
+      "metric": "4X",
+      "description": "Increase in local mobile sandblasting jobs",
+      "image": "/images/case-studies/prostrip.jpg",
+      "link": "https://digitalassembly.agency/case-studies/prostrip-sandblasting"
+    },
+    {
+      "company": "Lotus Commercial",
+      "sector": "Commercial Cleaning",
+      "metric": "3X",
+      "description": "Increase in commercial kitchen cleaning leads",
+      "image": "/images/case-studies/lotus.webp",
+      "link": "https://digitalassembly.agency/case-studies/lotus"
+    }
+  ],
+
+  "roadmap": [
+    {
+      "phase": "Week 1-2",
+      "title": "Discovery & Setup",
+      "description": "Deep dive into your ideal customer profile, competitive landscape, and service area targeting. Account setup and tracking implementation."
+    },
+    {
+      "phase": "Week 3-4",
+      "title": "Campaign Build",
+      "description": "Build search campaigns for leak repair, inspections, and commercial roofing. Set up landing pages and call tracking."
+    },
+    {
+      "phase": "Week 5-8",
+      "title": "Launch & Optimize",
+      "description": "Go live with campaigns. Daily monitoring and optimization. First qualified leads start flowing."
+    },
+    {
+      "phase": "Month 3+",
+      "title": "Scale & Refine",
+      "description": "Analyze which keywords and ads produce closed deals. Scale what works, cut what doesn't."
+    }
+  ],
+
+  "roiDefaults": {
+    "opportunities": 15,
+    "closeRate": 25,
+    "ltv": 15000,
+    "investment": 4000
+  },
+
+  "phases": [
+    {
+      "name": "Phase One: Implementation (One-Time)",
+      "items": [
+        { "label": "Account Setup & Management", "amount": 1500 }
+      ]
+    },
+    {
+      "name": "Phase Two: Monthly Management",
+      "items": [
+        { "label": "Management", "amount": 1500 },
+        { "label": "Ad Spend", "amount": 2500 }
+      ]
+    }
+  ],
+
+  "guarantee": "If we don't deliver at least 45 qualified opportunities in the first 90 days, we'll manage your campaigns for free until we do.",
+  "stipulations": [
+    "Minimum 90-day commitment required",
+    "Ad spend must be maintained at recommended levels",
+    "Client must follow up on leads within 4 business hours",
+    "All lead outcomes must be tracked in shared system"
+  ],
+
+  "scopeIncludes": [
+    "Google Ads search campaign management",
+    "Custom landing page (1 page)",
+    "Call tracking and recording",
+    "Weekly performance reports",
+    "Monthly strategy calls",
+    "Ongoing campaign optimization"
+  ],
+
+  "scopeExcludes": [
+    "Organic SEO services",
+    "Social media advertising",
+    "Website development beyond landing page",
+    "CRM setup or management",
+    "Sales training or coaching",
+    "Print or offline advertising"
+  ],
+
+  "about": {
+    "intro": "Digital Assembly builds revenue growth systems for service businesses. Since 2016, we've helped 100+ clients across the US, Canada, UK, Australia, and New Zealand generate predictable pipelines through strategic paid advertising and lead qualification. We're not a typical agency—we're partners invested in your growth.",
+    "values": [
+      {
+        "title": "Results Over Activity",
+        "description": "We measure success by qualified opportunities and closed deals, not clicks or impressions."
+      },
+      {
+        "title": "Radical Transparency",
+        "description": "You'll always know exactly where your money is going and what it's producing."
+      }
+    ],
+    "founderName": "Daniel Sandoval",
+    "founderTitle": "Founder & Lead Strategist"
+  },
+
+  "testimonials": [
+    {
+      "id": "1",
+      "quote": "I have no concerns recommending Digital Assembly",
+      "name": "Tom McCarthy",
+      "company": "HussetHR",
+      "badge": "Google Verified"
+    },
+    {
+      "id": "2",
+      "quote": "Dan's producing more than 4x my cost to hire his firm",
+      "name": "Robert Dorsey",
+      "company": "Reconditioning Pros",
+      "badge": "Google Verified"
+    },
+    {
+      "id": "3",
+      "quote": "Honest and proactive, a very rare attribute in the industry",
+      "name": "Irene Denton",
+      "company": "Lightning Locksmiths",
+      "badge": "Google Verified"
+    },
+    {
+      "id": "4",
+      "quote": "Enhanced our digital footprint in a way that we couldn't have",
+      "name": "Rupert Harvey",
+      "company": "Smaart Recruitment",
+      "badge": "Google Verified"
+    }
+  ],
+
+  "faqs": [
+    {
+      "question": "How quickly will I start seeing leads?",
+      "answer": "Most clients see their first leads within 14 days as campaigns go live. The full 90-day build and proof phase stabilizes volume and pushes toward the 45-opportunity target."
+    },
+    {
+      "question": "What happens if it doesn't work?",
+      "answer": "If you meet the agreed stipulations and we don't deliver 45 qualified opportunities, our guarantee applies and we manage your campaigns for free until we hit the target."
+    },
+    {
+      "question": "What do you need from us?",
+      "answer": "Respond to leads fast, track every outcome in our shared system, and join monthly strategy calls."
+    },
+    {
+      "question": "How much time does this require?",
+      "answer": "Outside of onboarding, minimal. You focus on calls and building relationships; we handle the lead engine."
+    },
+    {
+      "question": "Can we pause or cancel?",
+      "answer": "After the initial 90-day build and proof phase, it's month-to-month with no long contracts."
+    }
+  ]
+}
