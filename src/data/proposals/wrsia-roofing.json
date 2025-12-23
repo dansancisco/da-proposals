@@ -168,7 +168,7 @@
     {
       "phase": "Week 9-12",
       "title": "Hit Target",
-      "description": "Push toward 45-opportunity target. Attribute closed deals back to campaigns. Continuous refinement based on real data."
+      "description": "Push toward 30-opportunity target. Attribute closed deals back to campaigns. Continuous refinement based on real data."
     }
   ],
 
@@ -195,12 +195,15 @@
     }
   ],
 
-  "guarantee": "If we don't deliver at least 45 qualified opportunities in the first 90 days, we'll refund your management fee.",
+  "guarantee": "If we don't deliver at least 30 qualified opportunities in the first 90 days, we'll refund your management fee.",
   "stipulations": [
-    "Minimum 90-day commitment required",
-    "Ad spend must be maintained at recommended levels",
-    "Client must follow up on leads within 4 business hours",
-    "All lead outcomes must be tracked in shared system"
+    "Respond to leads within 1 hour during business hours",
+    "Use lead tracking platform to mark quotable leads, log quote values, and sales values",
+    "Ad spend maintained at $2,500/month as agreed",
+    "90-day minimum commitment required",
+    "No campaign pauses longer than 7 days",
+    "Quotes sent within 24 hours of qualified lead",
+    "Respond to all Digital Assembly requests within 24 hours"
   ],
 
   "scopeIncludes": [
