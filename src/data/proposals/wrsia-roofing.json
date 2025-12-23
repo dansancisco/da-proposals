@@ -166,9 +166,9 @@
       "description": "Go live with campaigns. Daily monitoring and optimization. First qualified leads start flowing."
     },
     {
-      "phase": "Month 3+",
+      "phase": "Week 9-12",
       "title": "Scale & Refine",
-      "description": "Analyze which keywords and ads produce closed deals. Scale what works, cut what doesn't."
+      "description": "Analyze which keywords and ads produce closed deals. Scale what works, cut what doesn't. Hit 45-opportunity target."
     }
   ],
 
@@ -183,7 +183,7 @@
     {
       "name": "Phase One: Implementation (One-Time)",
       "items": [
-        { "label": "Account Setup & Management", "amount": 1500 }
+        { "label": "Account Setup", "amount": 1500 }
       ]
     },
     {
@@ -195,7 +195,7 @@
     }
   ],
 
-  "guarantee": "If we don't deliver at least 45 qualified opportunities in the first 90 days, we'll manage your campaigns for free until we do.",
+  "guarantee": "If we don't deliver at least 45 qualified opportunities in the first 90 days, we'll refund your service fee.",
   "stipulations": [
     "Minimum 90-day commitment required",
     "Ad spend must be maintained at recommended levels",
@@ -222,7 +222,7 @@
   ],
 
   "about": {
-    "intro": "Digital Assembly builds revenue growth systems for service businesses. Since 2016, we've helped 100+ clients across the US, Canada, UK, Australia, and New Zealand generate predictable pipelines through strategic paid advertising and lead qualification. We're not a typical agency—we're partners invested in your growth.",
+    "intro": "Hi, I'm Daniel Sandoval. Since 2016 I have helped more than 100 high-value service businesses generate over 60 million dollars in attributable revenue by fixing how their pipelines work and convert. Straightforward, numbers first, no fluff.",
     "values": [
       {
         "title": "Results Over Activity",
