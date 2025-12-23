@@ -124,12 +124,12 @@
 
   "caseStudies": [
     {
-      "company": "Smaart Recruitment",
-      "sector": "Recruitment",
-      "metric": "3.8X",
-      "description": "Increase in call centre staffing opportunities",
-      "image": "/images/case-studies/smaart.webp",
-      "link": "https://digitalassembly.agency/case-studies/smaart-recruitment"
+      "company": "WASP Blasting",
+      "sector": "Industrial",
+      "metric": "2X",
+      "description": "Increase in commercial blasting leads",
+      "image": "/images/case-studies/wasp-blasting.jpg",
+      "link": "https://digitalassembly.agency/case-studies/wasp-blasting"
     },
     {
       "company": "ProStrip Sandblasting",
