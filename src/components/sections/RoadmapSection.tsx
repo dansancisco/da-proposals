@@ -14,7 +14,7 @@ export function RoadmapSection({ roadmap }: RoadmapSectionProps) {
       <Reveal className="mb-8 flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
         <div className="border-l-2 border-signal pl-6">
           <h2 className="mb-2 font-display text-4xl font-bold uppercase">
-            60-Day Roadmap
+            90-Day Roadmap
           </h2>
           <p className="font-mono text-sm uppercase text-neutral-500">
             What happens and when.
