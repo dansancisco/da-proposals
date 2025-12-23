@@ -151,24 +151,24 @@
 
   "roadmap": [
     {
-      "phase": "Week 1-2",
-      "title": "Discovery & Setup",
-      "description": "Deep dive into your ideal customer profile, competitive landscape, and service area targeting. Account setup and tracking implementation."
+      "phase": "Week 1",
+      "title": "Setup",
+      "description": "Account setup, keyword research, competitor analysis, tracking implementation, and landing page build."
     },
     {
-      "phase": "Week 3-4",
-      "title": "Campaign Build",
-      "description": "Build search campaigns for leak repair, inspections, and commercial roofing. Set up landing pages and call tracking."
+      "phase": "Week 2",
+      "title": "Launch & First Leads",
+      "description": "Campaigns go live. First calls start coming in. Daily monitoring and quality review."
     },
     {
-      "phase": "Week 5-8",
-      "title": "Launch & Optimize",
-      "description": "Go live with campaigns. Daily monitoring and optimization. First qualified leads start flowing."
+      "phase": "Week 3-8",
+      "title": "Optimize & Scale",
+      "description": "Analyze call quality, identify top-performing keywords, refine ad copy. Double down on what works, cut what doesn't."
     },
     {
       "phase": "Week 9-12",
-      "title": "Scale & Refine",
-      "description": "Analyze which keywords and ads produce closed deals. Scale what works, cut what doesn't. Hit 45-opportunity target."
+      "title": "Hit Target",
+      "description": "Push toward 45-opportunity target. Attribute closed deals back to campaigns. Continuous refinement based on real data."
     }
   ],
 
